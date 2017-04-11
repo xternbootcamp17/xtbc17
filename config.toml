@@ -1,3 +1,4 @@
 languageCode = "en-us"
-title = "My New Hugo Site"
-baseURL = "http://example.org/"
+title = "XTERN Bootcamp 2017"
+baseURL = "http://xternbootcamp17.github.io/"
+theme = "hugo-theme-learn"

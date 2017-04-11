@@ -1,0 +1,18 @@
+{{ if .IsNamedParams }}
+  <pre class="language-{{ .Get "language" }} {{ if .Get "class" }}{{ .Get "class" }}{{ end }}"
+       {{ if .Get "prompt" }}data-prompt="{{ .Get "prompt" }}"{{ end }}
+       {{ if .Get "output" }}data-output="{{ .Get "output" }}"{{ end }}
+       {{ if .Get "output" }}data-output="{{ .Get "output" }}"{{ end }}
+       {{ if .Get "line" }}data-line="{{ .Get "line" }}"{{ end }}
+       {{ if .Get "label" }}rel="{{ .Get "label" }}"{{ else }}rel="{{ .Get "language" }}"{{ end }}
+  ><code class="language-{{ .Get "language" }}">
+  {{ .Inner }}
+  </code>
+  </pre>
+{{ else }}
+<pre class="line-numbers language-{{ .Get 0 }}" rel="{{ .Get 0 }}">
+<code class="language-{{ .Get 0 }}">
+{{ .Inner }}
+</code>
+</pre>
+{{ end }}
