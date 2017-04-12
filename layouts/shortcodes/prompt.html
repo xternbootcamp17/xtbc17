@@ -1,0 +1,26 @@
+{{ $data := trim .Inner "\n" }}
+{{ $output := .Get "output"  }}
+<div class="bar">
+  <div class="dot red">
+  </div>
+  <div class="dot yellow">
+  </div>
+  <div class="dot green">
+  </div>
+</div>
+<div class="shell">
+{{ if ($output) }}
+  {{ $outputLines := split $output "," }}
+<pre>
+<span class="command-line-prompt">{{ range $index, $line := split $data "\n" }}{{ $i := add $index 1 | html }}{{ if in $outputLines $i }}
+{{ else }}<span data-prompt="$"></span>{{ end }}{{ end }}</span
+>{{ range $index, $line := split $data "\n" }}{{ $i := add $index 1 | html }}{{ if in $outputLines $i }}
+<span class="output-line">{{ $line }}</span>
+{{ else }}{{ $line }}{{ end }}{{ end }}
+</pre>
+{{ else }}
+<pre><span class="scroll-x"
+><span class="command-line-prompt">{{ range split $data "\n" }}<span data-prompt="$"></span>{{ end }}</span>{{ $data }}
+</span></pre>
+{{ end }}
+</div>
