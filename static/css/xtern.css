@@ -298,6 +298,10 @@ pre .copy-to-clipboard {
   border-radius: 5px 5px 0 0;
   box-sizing: border-box;
 }
+.bar .copy-to-clipboard {
+  background-color: transparent;
+  float: right;
+}
 .dot {
   display: inline-block;
   width: 10px;
@@ -330,7 +334,7 @@ pre .copy-to-clipboard {
     line-height: 1.25;
     white-space: pre !important;
 }
-.shell pre .scroll-x {
+.shell pre .terminal-commands {
   overflow-x: scroll;
 }
 .shell .command-line-prompt {

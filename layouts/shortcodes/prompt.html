@@ -14,12 +14,12 @@
 <pre>
 <span class="command-line-prompt">{{ range $index, $line := split $data "\n" }}{{ $i := add $index 1 | html }}{{ if in $outputLines $i }}
 {{ else }}<span data-prompt="$"></span>{{ end }}{{ end }}</span
->{{ range $index, $line := split $data "\n" }}{{ $i := add $index 1 | html }}{{ if in $outputLines $i }}
+><span class="terminal-commands">{{ range $index, $line := split $data "\n" }}{{ $i := add $index 1 | html }}{{ if in $outputLines $i }}
 <span class="output-line">{{ $line }}</span>
 {{ else }}{{ $line }}{{ end }}{{ end }}
-</pre>
+</span></pre>
 {{ else }}
-<pre><span class="scroll-x"
+<pre><span class="terminal-commands"
 ><span class="command-line-prompt">{{ range split $data "\n" }}<span data-prompt="$"></span>{{ end }}</span>{{ $data }}
 </span></pre>
 {{ end }}
