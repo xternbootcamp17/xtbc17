@@ -441,3 +441,29 @@ only screen and (min-device-pixel-ratio: 1.5) {
   user-select: none;
   font-family: "Operator Mono A", "Operator Mono B", "Fira Mono", Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
 }
+
+.moneybags {
+  background-color: #E6F9E6;
+  background-image: url(/images/sayagata.png), linear-gradient(24deg, rgb(92, 184, 92) 0%, #77c8be 100%);
+  margin: 2rem 0;
+  position: relative;
+  padding-bottom: 1rem;
+  text-shadow: rgba(0,0,0,0.4) 2px 0 5px;
+  color: white;
+}
+.moneybags h4 {
+  background: rgba(92, 184, 92, 0.8);
+  font-size: 1rem;
+  font-weight: 300;
+  padding: 0.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 0;
+  color: white;
+}
+.moneybags .emoji {
+  float: left;
+  font-size: 400%;
+  margin: 0 1rem;
+}
