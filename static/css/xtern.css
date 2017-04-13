@@ -91,6 +91,9 @@ p.file + p + pre {
   text-align: center;
 }
 
+#header svg {
+  width: 100%;
+}
 #header svg * {
   fill: #ffce00;
 }
@@ -277,39 +280,104 @@ pre[rel="Terminal"]::before {
   letter-spacing: 1px;
 }
 
+code + .copy-to-clipboard {
+  background-image: url(/images/clippy-dark.svg);
+  background-size: 12px 12px;
+  height: 16px;
+}
+.copy-to-clipboard:hover {
+  background-color: #ddd;
+}
 pre .copy-to-clipboard {
   background-color: #ccc;
+  background-image: url(/images/clippy.svg);
 }
 
 /* Command Line */
 .shell {
-  border-radius: 0 0 5px 5px;
-  box-shadow: rgba(0,0,0,0.5) 0px 3px 20px;
-  font-size: 18px !important;
+  box-shadow: rgba(0,0,0,0.2) 0px 3px 20px;
+}
+.shell.macos {
+  border-radius: 5px 5px 5px 5px;
+}
+.shell.windows {
+  border: 1px solid #1883d7;
+}
+.shell img {
+  margin: 0 !important;
 }
 .bar {
   height: 30px;
-  background-color: #DAD9D9;
-  background: linear-gradient(to bottom,  #f6f6f6 0%,#dadada 100%);
+  line-height: 30px;
   margin: 0 auto;
-  font-family: monospace;
-  padding: 5px 0 0 10px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-size: 14px;
   float: none;
+}
+.macos .bar {
+  border: 1px solid rgba(223,223,223,0.4);
   border-radius: 5px 5px 0 0;
-  box-sizing: border-box;
+  background-color: #f6f6f6;
+  background: linear-gradient(to bottom,  #f0f0f0 0%,#eceeee 100%);font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  text-align: center;
 }
-.bar .copy-to-clipboard {
-  background-color: transparent;
+.windows .bar {
+  background: #fff;
+  box-sizing: content-box;
+  font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  text-align: left;
+}
+.macos .windows,
+.windows .macos {
+  display: none;
+}
+.shell .controls {
+  float: left;
+}
+.macos .controls {
+  padding-left: 10px;
+  position: absolute;
+}
+.windows .windows.icon {
+  margin: 0 8px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
+.windows .windows.icon img {
+  height: 16px;
+}
+.macos .windows-controls {
+  display: none;
+}
+.windows-controls {
+  background-image: url(/images/windows-controls.png);
   float: right;
+  width: 137px;
+  height: 30px;
 }
-.dot {
+@media only screen and (-Webkit-min-device-pixel-ratio: 1.5),
+only screen and (-moz-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min-device-pixel-ratio: 1.5) {
+  .windows-controls {
+    background-image: url(/images/windows-controls@2x.png);
+    background-size: 137px 30px;
+  }
+}
+.windows .dot {
+  display: none;
+}
+.macos .dot {
   display: inline-block;
   width: 10px;
   height: 10px;
-  background: #f9f9f9;
   border-radius: 50%;
   margin: 0 4px 0 0;
   box-sizing: content-box;
+}
+.macos .windows-controls {
+  display: none;
 }
 .red {
    background: #FF6057;
@@ -323,10 +391,22 @@ pre .copy-to-clipboard {
     background: #27C93F;
     border: 1px solid #1DAD2B;
 }
+.shell-body {
+  font-size: 18px !important;
+}
+.shell.macos .shell-body {
+  border: 1px solid #2e4759;
+  border-radius: 0 0 5px 5px;
+}
+.shell.macos pre {
+  border-radius: 0;
+}
+.shell.windows pre {
+  border-radius: 0;
+}
 .shell pre {
-    background-color: #33485E;
+    background-color: #2e4759;
     color: white;
-    border-radius: 0 0 5px 5px;
     margin: 0 auto;
     padding: 10px;
     font-weight: 500;
@@ -336,6 +416,17 @@ pre .copy-to-clipboard {
 }
 .shell pre .terminal-commands {
   overflow-x: scroll;
+}
+.shell .copy-to-clipboard {
+  background-image: url(/images/clippy-light.svg);
+  background-color: transparent;
+}
+.shell pre .copy-to-clipboard:hover {
+  background-color: rgba(255,255,255,0.2);
+}
+.shell .copy-to-clipboard.tooltipped-s:after,
+.shell .copy-to-clipboard.tooltipped-n:after {
+  transform: translateX(10%); 
 }
 .shell .command-line-prompt {
   border: 0;

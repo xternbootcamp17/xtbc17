@@ -1,0 +1,45 @@
+{{ $data := trim .Inner "\n" }}
+{{ $output := .Get "output"  }}
+{{ $os := .Get "os" | default "macos" }}
+{{ .Get "prompt" | default "$" | $.Scratch.Set "prompt" }}
+{{ .Get "title" | default "user@localhost ~" | $.Scratch.Set "title" }}
+{{ if eq $os "windows" }}
+  {{ .Get "prompt" | default ">" | $.Scratch.Set "prompt" }}
+  {{ .Get "title" | default "C:\\Windows\\system32\\cmd.exe" | $.Scratch.Set "title" }}
+{{ end }}
+
+<div class="shell {{ $os }}">
+<div class="bar">
+  <div class="controls">
+    <div class="windows icon">
+      <img src="/images/cmd.png" alt="">
+    </div>
+    <div class="dot red">
+    </div>
+    <div class="dot yellow">
+    </div>
+    <div class="dot green">
+    </div>
+  </div>
+  {{ $.Scratch.Get "title" }}
+  <div class="windows-controls">
+    &nbsp;
+  </div>
+</div>
+<div class="shell-body">
+{{ if ($output) }}
+  {{ $outputLines := split $output "," }}
+<pre>
+<span class="command-line-prompt">{{ range $index, $line := split $data "\n" }}{{ $i := add $index 1 | html }}{{ if in $outputLines $i }}
+{{ else }}<span data-prompt="{{ $.Scratch.Get "prompt" }}"></span>{{ end }}{{ end }}</span
+><span class="terminal-commands">{{ range $index, $line := split $data "\n" }}{{ $i := add $index 1 | html }}{{ if in $outputLines $i }}
+<span class="output-line">{{ $line }}</span>
+{{ else }}{{ $line }}{{ end }}{{ end }}
+</span></pre>
+{{ else }}
+<pre><span class="terminal-commands"
+><span class="command-line-prompt">{{ range split $data "\n" }}<span data-prompt="{{ $.Scratch.Get "prompt" }}"></span>{{ end }}</span>{{ $data }}
+</span></pre>
+{{ end }}
+</div>
+</div>
