@@ -1,0 +1,28 @@
+{
+  "name": "xtbc17",
+  "version": "0.2.0",
+  "description": "React coding bootcamp",
+  "main": "index.js",
+  "config": {
+    "postcssPlugins": "require('autoprefixer')()"
+  },
+  "scripts": {
+    "css:b": "NODE_PATH=$PWD && stylus --use poststylus --with \"[$npm_package_config_postcssPlugins]\" --use rupture ./static-src/css-src/ --out ./static/css",
+    "css:w": "NODE_PATH=$PWD && stylus --use poststylus --with \"[$npm_package_config_postcssPlugins]\" --use rupture --sourcemap --sourcemap-base ./static-src/css-src/ --watch ./static-src/css-src/ --out ./static/css",
+    "build": "npm run css:b",
+    "watch": "parallelshell 'npm run css:w'",
+    "prewatch": "npm run build",
+    "start": "npm run watch"
+  },
+  "author": "Dave Strus and Seth Baughman",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^5.2.0",
+    "onchange": "^1.1.0",
+    "parallelshell": "^1.1.1",
+    "poststylus": "^0.2.0",
+    "rupture": "^0.6.1",
+    "stylus": "^0.51.1",
+    "watchify": "^3.2.1"
+  }
+}
