@@ -148,7 +148,7 @@ pre[class*="language-"] code {
 pre .command-line-prompt {
   border-right: 1px solid #ddd;
 }
-pre .command-line-prompt > span:before {
+pre .command-line-prompt > span::before {
   color: #ccc;
 }
 pre .copy-to-clipboard {
@@ -176,7 +176,7 @@ pre.line-numbers code,
 .entry-content pre.line-numbers code {
   padding-left: 3em;
 }
-.line-numbers-rows > span:before {
+.line-numbers-rows > span::before {
   color: #bbb;
 }
 pre.line-numbers[rel],
