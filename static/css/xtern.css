@@ -30,6 +30,10 @@
 #sidebar ul.topics > li.active {
   background-color: #292929;
 }
+#body-inner {
+  margin: 0 auto 5rem auto;
+  max-width: 70em;
+}
 date {
   display: block;
   text-align: center;
@@ -258,6 +262,8 @@ pre[rel="Terminal"]::before {
 }
 .shell {
   box-shadow: rgba(0,0,0,0.2) 0px 3px 20px;
+  margin: 0 auto;
+  max-width: 60em;
 }
 .shell.macos {
   border-radius: 5px 5px 5px 5px;
@@ -407,19 +413,17 @@ pre[rel="Terminal"]::before {
   -webkit-transform: translateX(10%);
           transform: translateX(10%);
 }
-.moneybags {
-  background-color: #e6f9e6;
-  background-image: url("/images/sayagata.png"), linear-gradient(24deg, #5cb85c 0%, #77c8be 100%);
-  margin: 2rem 0;
+.aside {
+  margin: 2rem auto;
+  max-width: 50em;
   position: relative;
   padding-bottom: 1rem;
   text-shadow: rgba(0,0,0,0.8) 1px 0 1px;
   color: #fff;
 }
-.moneybags h4 {
-  background: rgba(92,184,92,0.8);
+.aside h4 {
   font-size: 1rem;
-  font-weight: 300;
+  font-weight: 700;
   padding: 0.5rem;
   text-align: center;
   text-transform: uppercase;
@@ -427,12 +431,41 @@ pre[rel="Terminal"]::before {
   margin-bottom: 0;
   color: #fff;
 }
-.moneybags .emoji {
+.aside .emoji {
   float: left;
   font-size: 400%;
   margin: 0 1rem;
 }
-.moneybags a {
-  color: #0ef;
+.aside .body {
+  padding: 0 1rem;
+}
+.aside a {
+  color: #ffce00;
+}
+#body .aside a.highlight:after {
+  background-color: #ffce00;
+}
+.aside.aside-tip {
+  background-color: #e6f9e6;
+  background-image: url("/images/sayagata.png"), linear-gradient(24deg, #5cb85c 0%, #77c8be 100%);
+}
+.aside.aside-tip h4 {
+  background: rgba(92,184,92,0.8);
+}
+.aside.aside-note,
+.aside.aside-info {
+  background-color: #2b59c3;
+  background-image: url("/images/sayagata.png"), linear-gradient(24deg, #2b59c3 0%, #77c8be 100%);
+}
+.aside.aside-note h4,
+.aside.aside-info h4 {
+  background: rgba(43,89,195,0.4);
+}
+.aside.aside-danger {
+  background-color: #cc2936;
+  background-image: url("/images/sayagata.png"), linear-gradient(24deg, #c92936 0%, #ebbab9 100%);
+}
+.aside.aside-danger h4 {
+  background: rgba(201,41,54,0.4);
 }
 /*# sourceMappingURL=xtern.css.map */

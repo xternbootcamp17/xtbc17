@@ -54,7 +54,7 @@ brew update           # This updates Homebrew so it knows about the latest versi
 brew upgrade git      # This upgrades Git itself.
 {{< /term >}}
 
-# Configuring Git
+## Configuring Git
 
 Next, tell Git what name and email address it should use to sign code that you've authored. Enter the following commands, substituting your actual name and email address:
 
@@ -63,6 +63,6 @@ git config --global user.name "Your Full Name"
 git config --global user.email "youremailaddress@example.com"
 {{< /term >}}
 
-{{% notice tip %}}
+{{% aside info "GitHub Desktop" github-alt %}}
 **[GitHub Desktop](https://desktop.github.com/)** is a very nice, free graphical interface for Git. Although we'll use Git from the command-line a great deal, we'll also look at how GitHub Desktop can make certain tasks easier.
-{{% /notice%}}
+{{% /aside %}}

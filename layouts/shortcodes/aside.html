@@ -1,0 +1,30 @@
+{{ if .IsNamedParams }}
+<div class="aside aside-{{ .Get "type" | default "note" }}">
+  <h4>{{ .Get "title" | default "Note" }}</h4>
+  {{ if .Get "emoji"}}
+  <div class="emoji">💰</div>
+  {{ end }}
+  {{ if .Get "icon" }}
+  <div class="emoji">
+    <i class="fa fa-{{ .Get "icon" }}"></i>
+  </div>
+  {{ end }}
+  {{ .Inner }}
+</div>
+{{ else }}
+  <div class="aside aside-{{ .Get 0 | default "note" }}">
+  {{ if len .Params | le 2 }}
+    <h4>{{ .Get 1 }}</h4>
+    {{ if len .Params | le 3 }}
+      <div class="emoji">
+        <i class="fa fa-{{ .Get 2 }}"></i>
+      </div>
+    {{ end }}
+  {{ else }}
+    <h4>{{ .Get 0 }}</h4>
+  {{ end }}
+  <div class="body">
+  {{ .Inner }}
+  </div>
+</div>
+{{ end }}
