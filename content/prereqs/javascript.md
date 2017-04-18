@@ -17,6 +17,6 @@ React is a JavaScript library, so it's fair to say that we'll be using a whole h
 
 ## Intermediate
 
-### JavaScript 30 by Wes Bos:
+### JavaScript 30 by Wes Bos
 
 I highly recommend completing [JavaScript 30](https://javascript30.com/) by Wes Bos. It's a series of thirty 20-minute videos, meant to be completed over the course of 30 days. That will take some planning on your part, obviously; you can't wait until the last second to dive into this stuff. But it's not a huge daily time commitment, and it will help a great deal.

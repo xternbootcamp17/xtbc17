@@ -13,9 +13,9 @@ Cascading Stylesheets (CSS) define the _presentation_ of web content. Even if yo
 
 If you already have a decent handle on these topics, you'll fly right through the lessons, but you may pick up a little bit of new knowledge along the way. I often find that when I review the basics, there's something that I haven't thought about in a long time that I ought to be using more often.
 
-{{% notice note %}}
+{{% aside info Note %}}
 One of these courses or the other should be plenty of preparation. Don't feel like you need to complete both, unless you just want the extra practice.
-{{% /notice %}}
+{{% /aside %}}
 
 ### Learn HTML and CSS: Part 1, from Codecademy
 

@@ -30,6 +30,6 @@ I am a big fan of ZSH, which is an alternative to Bash. Even better is [Oh My ZS
 
 I will be using ZSH (with Oh My ZSH) in class, but most of what we'll do works just as well in Bash.
 
-{{% notice tip %}}
+{{% aside info "Command Line Power User" %}}
 If you're not very familiar with UNIX shells, or if you'd like to learn some cool tricks, including Oh My ZSH features, sign up for Wes Bos's free **[Command Line Power User](http://commandlinepoweruser.com/)** videos. (They're all on YouTube, but signing up for the email makes it a little easier to find them.)
-{{% /notice%}}
+{{% /aside %}}

@@ -9,9 +9,9 @@ next = "/prereqs/terminal"
 
 We will be using Git for source code management--and hosting our repositories on [GitHub](https://github.com)--throughout the bootcamp. It will help if you're not seeing it for the first time.
 
-{{% notice note %}}
+{{% aside info Note %}}
 Once again, one of these courses or the other should be plenty of preparation.
-{{% /notice %}}
+{{% /aside %}}
 
 ### Learn Git from Codecademy
 

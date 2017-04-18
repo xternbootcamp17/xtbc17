@@ -7,10 +7,10 @@ title = "Setup for Mac"
 next = "/setup-mac/google-chrome"
 +++
 
-{{% notice note %}}
+{{% aside danger "Work In Progress" %}}
 The setup instructions are a work in progress. Feel free to get a head start, but check here again before class starts, as this will evolve.
-{{% /notice %}}
+{{% /aside %}}
 
-With this guide, you can prepare your laptop with everything you'll need to get started with the Xtern Bootcamp. This guide is written specifically for Mac OS X users.
+With this guide, you can prepare your laptop with everything you'll need to get started with the Xtern Bootcamp. This guide is written specifically for macOS/Mac OS X.
 
 If you have trouble at any point, please contact [Davey](mailto:dave@getfretless.com) or [Seth](seth@getfretless.com).
