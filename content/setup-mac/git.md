@@ -1,12 +1,14 @@
 +++
 date = "2016-06-10T23:06:12-04:00"
-next = "/setup-mac/nodejs"
+next = "/setup-mac/node"
 prev = "/setup-mac/command-line"
 title = "Git"
 toc = true
 weight = 3
 
 +++
+
+<div id="git-logo"><div>{{< git-logo >}}</div></div>
 
 ## About Git
 

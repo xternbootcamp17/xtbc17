@@ -10,8 +10,6 @@ weight = 2
 
 You'll be using a command-line throughout the setup process.
 
-
-
 ## Terminal, iTerm2, or Hyper
 
 macOS comes with Terminal, which you can find at `/Applications/Utilities/Terminal.app` or by searching for Terminal in Spotlight.
