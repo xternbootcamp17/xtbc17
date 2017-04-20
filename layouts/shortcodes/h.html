@@ -1,0 +1,9 @@
+<div class="page-heading"><div>
+{{ if len .Params | le 1 }}
+{{ $partial := .Get 0 }}
+{{ partial $partial . }}
+{{ end }}
+{{ if len .Inner }}
+{{ .Inner }}
+{{ end }}
+</div></div>

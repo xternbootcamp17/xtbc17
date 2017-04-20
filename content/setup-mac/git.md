@@ -1,16 +1,14 @@
 +++
 date = "2016-06-10T23:06:12-04:00"
 next = "/setup-mac/node"
-prev = "/setup-mac/command-line"
+prev = "/setup-mac/terminal"
 title = "Git"
 toc = true
 weight = 3
 
 +++
 
-<div id="git-logo"><div>{{< git-logo >}}</div></div>
-
-## About Git
+{{% h "git-logo.svg" /%}}
 
 Git is a distributed version control system. (But you knew that already, because you totally completed a [Git tutorial](/prereqs/git/)---_right_?) If you have previously installed Xcode and its command-line tools, you may already have Git installed. Find out by entering the following command:
 
@@ -21,11 +19,15 @@ git version 2.12.2
 
 If you see something like `git version 2.12.2`, then you already have Git. If not, skip to the next section to install Homebrew. If you have Git, but the version number is lower than 2.12.2 (as of April 11, 2017), then your version of Git is out of date. Continue to the next step to install Homebrew.
 
-If your Git version is up-to-date, skip to the Git Configuration section.
+If your Git version is up-to-date, skip to the [Git Configuration](#configuring-git) section.
+
+{{% aside info "GitHub Desktop" github-alt %}}
+**[GitHub Desktop](https://desktop.github.com/)** is a very nice, free graphical interface for Git. Although we'll use Git from the command-line a great deal, we'll also look at how GitHub Desktop can make certain tasks easier.
+{{% /aside %}}
 
 ## Homebrew
 
-[Homebrew](http://brew.sh) is a package manager for OS X. That is, it manages the installation of certain software—especially UNIX tools—and the installed versions of that software.
+**[Homebrew](http://brew.sh)** is a package manager for macOS. That is, it manages the installation of certain software---especially UNIX tools---and the installed versions of that software.
 
 Install Homebrew with the following command:
 
@@ -64,7 +66,3 @@ Next, tell Git what name and email address it should use to sign code that you'v
 git config --global user.name "Your Full Name"
 git config --global user.email "youremailaddress@example.com"
 {{< /term >}}
-
-{{% aside info "GitHub Desktop" github-alt %}}
-**[GitHub Desktop](https://desktop.github.com/)** is a very nice, free graphical interface for Git. Although we'll use Git from the command-line a great deal, we'll also look at how GitHub Desktop can make certain tasks easier.
-{{% /aside %}}

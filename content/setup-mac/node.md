@@ -1,17 +1,17 @@
 +++
 date = "2016-06-10T23:06:12-04:00"
-next = "/setup-mac/nodejs"
-prev = "/setup-mac/text-editors"
+next = "/setup-mac/editor"
+prev = "/setup-mac/git"
 title = "Node.js"
 toc = true
 weight = 4
 
 +++
 
-<div id="node-logo"><div>{{< node-logo >}}</div></div>
+{{% h "node-logo.svg" /%}}
 
 ## Installation
-If you installed Homebrew in the previous step, use it to install NodeJS:
+If you installed Homebrew in the previous step, use it to install Node.js:
 
 {{< term >}}
 brew install node

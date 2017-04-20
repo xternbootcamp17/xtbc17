@@ -4,8 +4,12 @@ toc = true
 weight = 0
 icon = "<i class=\"fa fa-apple\"></i>"
 title = "Setup for Mac"
-next = "/setup-mac/google-chrome"
+next = "/setup-mac/chrome"
 +++
+
+{{% h %}}
+<i class="fa fa-apple"></i> Setup
+{{% /h %}}
 
 {{% aside danger "Work In Progress" %}}
 The setup instructions are a work in progress. Feel free to get a head start, but check here again before class starts, as this will evolve.

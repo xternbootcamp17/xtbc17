@@ -1,16 +1,18 @@
 +++
 date = "2016-06-10T22:39:00-04:00"
-next = "/setup-mac/command-line"
+next = "/setup-mac/terminal"
 prev = "/setup-mac"
-title = "Google Chrome"
+title = "Chrome"
 toc = true
 weight = 1
 
 +++
 
+{{% h "chrome-logo.svg" /%}}
+
 To develop with React, you'll want a modern web browser with a JavaScript console and debugger. The latest versions of all the major browsers have the tools you need, but we highly recommend using Google Chrome for the course, as we can provide the most detailed help for the tools built into Chrome.
 
-### [Download Google Chrome](http://www.google.com/chrome/)
+{{% download Chrome "http://www.google.com/chrome/" %}}
 
 ## Recommended Extensions
 
