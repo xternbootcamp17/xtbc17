@@ -1,6 +1,6 @@
 +++
 date = "2016-06-10T23:06:12-04:00"
-next = "/setup-mac/editor"
+next = "/setup-mac/ssh"
 prev = "/setup-mac/node"
 title = "Editor"
 toc = true
