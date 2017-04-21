@@ -4,13 +4,12 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    role="img"
    viewBox="0 0 500 516.8125"
    id="vs-logo-svg"
-   version="1.2"
-   sodipodi:docname="Visual Studio Logo.svg">
+   aria-labelledby="vs-svg-title"
+   version="1.2">
+  <title id="vs-svg-title">Visual Studio Code</title>
   <defs
      id="defs4" />
   <sodipodi:namedview

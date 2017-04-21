@@ -10,7 +10,6 @@ weight = 4
 
 {{% h "node-logo.svg" /%}}
 
-## Installation
 If you installed Homebrew in the previous step, use it to install Node.js:
 
 {{< term >}}
@@ -19,7 +18,7 @@ brew install node
 
 If not, you can click one of the big, green download links on the Node.js web site.
 
-### [Download Node.js](http://nodejs.org/)
+{{% download "Node.js" "http://nodejs.org/" %}}
 
 {{% aside info Note %}}
 Node version numbers are confusing, but either the LTS version (6.10.2 as of this writing) or the Current version (7.9.0) will so for our puposes.
