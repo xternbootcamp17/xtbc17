@@ -499,6 +499,11 @@ pre[rel="Terminal"]::before {
   text-align: center;
   max-width: 100vw;
 }
+@media only all and (max-width: 47.938em) {
+  .page-heading {
+    margin: 0 -1rem;
+  }
+}
 .page-heading div {
   display: -webkit-box;
   display: -ms-flexbox;
