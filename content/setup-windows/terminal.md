@@ -26,7 +26,7 @@ Aside from being what I use, Hyper is much easier to use and to customize than `
 
 ## Configuring Hyper to Run Bash
 
-Now we need to configure Hyper to run Git Bash when it starts. Launch Hyper, and open its configuration file by running the following command:
+Now we need to configure Hyper to run Git Bash when it starts. To do so, let's edit its configuration file. Launch **Git Bash** (_not_ Hyper!), and run the following command:
 
 {{< term os="windows" >}}
 code ~/.hyper.js
@@ -47,7 +47,7 @@ We need to change two settings: _shell_ and _shellArgs_. Look for this section o
     shellArgs: ['--command=usr/bin/bash.exe', '-l', '-i'],
 {{< /code >}}
 
-Feel free to poke around the preferences file for anything else you'd like to tweak, such as font size. When you're finished, save the file, and relaunch Hyper.
+With that saved, you can quit Git Bash, and run Hyper, which will actually be running the Git Bash shell now. If you want to tweak more settings you can now run the `code ~/.hyper.js` command from Hyper. Feel free to poke around the preferences file for anything else you'd like to tweak, such as font size.
 
 ## Environment Variables
 
