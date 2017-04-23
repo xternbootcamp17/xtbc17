@@ -17,4 +17,4 @@ The setup instructions are a work in progress. Feel free to get a head start, bu
 
 With this guide, you can prepare your laptop with everything you'll need to get started with the Xtern Bootcamp. This guide is written specifically for macOS/Mac OS X.
 
-If you have trouble at any point, please contact [Davey](mailto:dave@getfretless.com) or [Seth](seth@getfretless.com).
+If you have trouble at any point, please contact [Davey](mailto:dave@getfretless.com) or [Seth](mailto:seth@getfretless.com).
