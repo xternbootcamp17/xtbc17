@@ -1,7 +1,7 @@
 +++
 date = "2016-06-10T23:28:03-04:00"
 next = "/setup-mac/github"
-prev = "/setup-mac/editor"
+prev = "/setup-mac/node"
 title = "SSH"
 toc = true
 weight = 6
@@ -47,7 +47,7 @@ ssh-keygen -t rsa -C "youremail@example.com"
 
 It should prompt you for a file name. You can just hit 'enter' to accept the default.
 
-It will then prompt you for a password. You can just hit 'enter' (twice) to not set a passphrase. That compromises your key should anyone gain access to your laptop, but it may be simpler for the sake of this course. It's much safer to use a passphrase when generating a key when you truly want to maximize security.
+It will then prompt you for a password. You can just hit 'enter' (twice) to not set a passphrase. That compromises your key should anyone gain access to your laptop, but it may be simpler for the sake of this course. When you truly want to maximize security, it's much safer to create a passphrase when generating a key.
 
 If all is well, you should see that your identification and your public key have been saved to `.ssh/id_rsa` and `.ssh/id_rsa.pub` respectively.
 

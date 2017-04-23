@@ -1,22 +1,18 @@
 +++
 date = "2016-06-10T23:06:12-04:00"
-next = "/setup-mac/ssh"
-prev = "/setup-mac/git"
+next = "/setup-windows/ssh"
+prev = "/setup-windows/terminal"
 title = "Node.js"
 toc = true
-weight = 4
+weight = 5
 
 +++
 
 {{% h "node-logo.svg" /%}}
 
-If you installed Homebrew in the previous step, use it to install Node.js:
+## Installation
 
-{{< term >}}
-brew install node
-{{< /term >}}
-
-If not, you can click one of the big, green download links on the Node.js web site.
+To install Node.js, click one of the big, green download links on the web site.
 
 {{% download "Node.js" "http://nodejs.org/" %}}
 
@@ -26,14 +22,10 @@ Node version numbers are confusing, but either the LTS version (6.10.2 as of thi
 
 ## Testing your installation
 
-After Node is installed, test your installation by running the following command:
+After Node is installed, close Hyper and reopen it. That way, `node` and other related commands will be available to you from any folder. Test your installation by running the following command:
 
-{{< term >}}
+{{< term os="windows" >}}
 npm install -g create-react-app
 {{< /term >}}
 
 You should see a progress bar of sorts while packages download and, eventually, a tree structure of various package names and version numbers. As you may have guessed, aside from testing your Node installation, this has the side effect of installing `create-react-app`, which we'll later use to do exactly what its name suggests.
-
-{{% aside tip %}}
-If the `npm` command isn't available, open a new tab in your terminal and try again. Opening a new tab should make `node` and other related commands available to you from any directory, if they weren't already.
-{{% /aside %}}

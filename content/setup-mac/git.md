@@ -4,7 +4,7 @@ next = "/setup-mac/node"
 prev = "/setup-mac/terminal"
 title = "Git"
 toc = true
-weight = 3
+weight = 4
 
 +++
 
@@ -60,9 +60,10 @@ brew upgrade git      # This upgrades Git itself.
 
 ## Configuring Git
 
-Next, tell Git what name and email address it should use to sign code that you've authored. Enter the following commands, substituting your actual name and email address:
+Next, tell Git what name and email address it should use to sign code that you've authored. While you're at it, tell it to use Code as the editor. Enter the following commands, substituting your actual name and email address:
 
 {{< term >}}
 git config --global user.name "Your Full Name"
 git config --global user.email "youremailaddress@example.com"
+git config --global core.editor "code --wait"
 {{< /term >}}

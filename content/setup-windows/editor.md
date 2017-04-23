@@ -1,7 +1,7 @@
 +++
 date = "2016-06-10T23:06:12-04:00"
-next = "/setup-mac/terminal"
-prev = "/setup-mac/chrome"
+next = "/setup-windows/git"
+prev = "/setup-windows/chrome"
 title = "Editor"
 toc = true
 weight = 2
@@ -14,13 +14,17 @@ You'll need a code-friendly text editor. If you already have a strong preference
 Visual Studio Code
 {{% /h %}}
 
-**[Visual Studio Code](http://code.visualstudio.com/)** is a free, open source editor from Microsoft---but don't let that scare you. It doesn't feel the least bit like a lazy port of a Windows product, because it isn't one. It was built from the ground up to be cross-platform. It's only two years old, but it's impressive.
+**[Visual Studio Code](http://code.visualstudio.com/)** is a free, open source editor from Microsoft. It was built from the ground up to be cross-platform. It's only two years old, but it's impressive.
 
 VS Code is particularly well suited for JavaScript development. It has Microsoft's famous IntelliSense, built-in support for Git, and a variety of extensions to make our lives easier.
 
 We will be using Visual Studio Code in class.
 
 {{% download "Visual Studio Code" "http://code.visualstudio.com/" %}}
+
+When given the chance to **Select Additional Tasks** during setup, go ahead and check all the boxes.
+
+<div class="img vscode-setup"><span>Check all the boxes for additional setup tasks.</strong></span></div>
 
 ### Recommended Extensions for VS Code
 
@@ -34,9 +38,9 @@ We will be using Visual Studio Code in class.
 
 If you're used to a full IDE, **[WebStorm](http://www.jetbrains.com/webstorm/)** might be more up your alley. Be warned: It's subscription-based, and is $12.90/month, or $129.00 the first year. You may find that Visual Studio Code has most of the features you need. We've never used WebStorm ourselves, so we won't be much help should you run into trouble.
 
-## Dock That Rascal
+## Pin That Rascal
 
-Whichever editor you use, you'll use it enough that I recommend keeping it in the Dock as well.
+Whichever editor you use, you'll use it enough that I recommend pinning it to the taskbar.
 
 {{% aside tip "Theme Info" %}}
 Since I'm always asked, I use the following themes:

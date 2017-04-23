@@ -4,15 +4,15 @@
 {{ .Get "prompt" | default "$" | $.Scratch.Set "prompt" }}
 {{ .Get "title" | default "user@localhost ~" | $.Scratch.Set "title" }}
 {{ if eq $os "windows" }}
-  {{ .Get "prompt" | default ">" | $.Scratch.Set "prompt" }}
-  {{ .Get "title" | default "C:\\Windows\\system32\\cmd.exe" | $.Scratch.Set "title" }}
+  {{ .Get "prompt" | default "$" | $.Scratch.Set "prompt" }}
+  {{ .Get "title" | default "WINGW64:/c/Users/user" | $.Scratch.Set "title" }}
 {{ end }}
 
 <div class="shell {{ $os }}">
 <div class="bar">
   <div class="controls">
     <div class="windows icon">
-      <img src="/images/cmd.png" alt="">
+      <img src="/images/git-bash.png" alt="">
     </div>
     <div class="dot red">
     </div>

@@ -1,10 +1,10 @@
 +++
 date = "2016-06-10T23:02:52-04:00"
 next = "/setup-mac/git"
-prev = "/setup-mac/chrome"
+prev = "/setup-mac/editor"
 title = "Terminal"
 toc = true
-weight = 2
+weight = 3
 
 +++
 
