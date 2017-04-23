@@ -18,7 +18,7 @@ We recommend setting up an SSH key to simplify authentication with GitHub and ot
 
 **In Hyper, make sure you're in your home directory.** You will be by default, but you can double-check with the "print working directory" command: `pwd`
 
-{{< term output="2">}}
+{{< term output="2" os="windows" >}}
 pwd
 /c/Users/dstrus
 {{< /term >}}
