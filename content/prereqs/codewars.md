@@ -2,7 +2,7 @@
 date = "2017-04-11T00:23:58-04:00"
 toc = true
 weight = 1
-title = "CodeWars"
+title = "Codewars"
 prev = "/prereqs/"
 next = "/prereqs/html-css"
 +++
@@ -12,7 +12,7 @@ next = "/prereqs/html-css"
 1. Sign up at [codewars.com](https://codewars.com) using your GitHub account.
 2. Follow [Seth Baughman](https://www.codewars.com/users/sbaughman) and [Dave Strus](https://www.codewars.com/users/dstrus).
 3. Solve the problems on the list below.
-4. Email us when you're done so we can review your solutions. (Include your username.)
+4. Email [Seth](mailto:seth@getfretless.com) and [Davey](mailto:dave@getfretless.com) when you're done so we can review your solutions. Pleae include your Codewars username.
 
 ## Welcome!
 
@@ -22,7 +22,7 @@ In order to make sure everyone gets as much as possible out of this experience, 
 
 You have already received a list of online resources that provide a basic foundation in JavaScript, HTML, and CSS (and they're linked again here). Once you have completed reading/watching/coding those, we have an assignment for you! The assignment should be completed and submitted to us for review before your first day of attending class.
 
-We will be using a website called CodeWars to test your knowledge of basic JavaScript. Personally, I like solving their exercises for fun, and I’ve identified 12 problems that I particularly enjoyed and that cover topics we will be using daily in class: Arrays, Objects, and String manipulation.
+We will be using a website called Codewars to test your knowledge of basic JavaScript. Personally, I like solving their exercises for fun, and I’ve identified 12 problems that I particularly enjoyed and that cover topics we will be using daily in class: Arrays, Objects, and String manipulation.
 
 * [Welcome!](https://www.codewars.com/kata/welcome) - 8 kyu
 * [Number of People in the Bus](https://www.codewars.com/kata/number-of-people-in-the-bus) - 8 kyu
@@ -37,7 +37,7 @@ We will be using a website called CodeWars to test your knowledge of basic JavaS
 * [Decode the Morse Code](https://www.codewars.com/kata/decode-the-morse-code) - 6 kyu
 * [Mirror object - tcejbo rorriM](https://www.codewars.com/kata/mirror-object-tcejbo-rorrim) - 6 kyu
 
-Now, you’re probably wondering _what the heck is a kyu?_ On CodeWars, exercises are ranked in difficulty from 8 kyu (really easy) to 1 kyu (really, really hard).  So, the above problems aren't too difficult---just challenging enough to make sure that you’ll be able to do what we need to do.
+Now, you’re probably wondering _what the heck is a kyu?_ On Codewars, exercises are ranked in difficulty from 8 kyu (really easy) to 1 kyu (really, really hard).  So, the above problems aren't too difficult---just challenging enough to make sure that you’ll be able to do what we need to do.
 
 So, that’s basically it. Sign up, do the problems, and send us an email when you’re done. **Please be sure to include your username in the email so that we can be sure we're looking at the right solutions.**
 
@@ -88,4 +88,4 @@ Click on the links in the list on the first page, OR...
 
 ### Other questions?
 
-Check out the [CodeWars documentation](https://www.codewars.com/docs) or [email us](mailto:dave@getfretless.com,seth@getfretless.com?subject=HALP).
+Check out the [Codewars documentation](https://www.codewars.com/docs) or [email us](mailto:dave@getfretless.com,seth@getfretless.com?subject=HALP).
