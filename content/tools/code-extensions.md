@@ -110,6 +110,11 @@ Autocomplete filenames as you type. Very handy for module imports.
 
 <img src="/images/path-intellisense.gif" class='no-margin'>
 
+### [View In Browser](https://marketplace.visualstudio.com/items?itemName=qinjia.view-in-browser)
+
+`ext install view-in-browser`
+
+Opens an HTML page in the default browser. Bound to <kbd>⌘</kbd>+<kbd>F1</kbd> (Mac) or <kbd>ctrl</kbd>+<kbd>F1</kbd> by default.
 
 {{% aside tip "Theme Info" %}}
 Since I'm always asked, I use the following themes:
