@@ -541,8 +541,15 @@ body[data-url="/setup-windows/terminal/"]
       linear-gradient(34deg, #010efd 0%, #fe0c00 100%);
   }
 
+body[data-url="/tools/code-extensions/"],
+body[data-url="/tools/code-keybindings/"]
+  h1
+    display none
+
 body[data-url="/setup-mac/editor/"],
-body[data-url="/setup-windows/editor/"]
+body[data-url="/setup-windows/editor/"],
+body[data-url="/tools/code-extensions/"],
+body[data-url="/tools/code-keybindings/"]
   .page-heading
     color #66595c
     font-family "Helvetica Neue", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", sans-serif
@@ -576,12 +583,13 @@ body[data-url="/setup-windows/ssh/"]
   }
 
 body[data-url="/setup-mac/github/"],
-body[data-url="/setup-windows/github/"]
+body[data-url="/setup-windows/github/"],
+body[data-url="/tools/github-desktop/"]
   h1
     display none
   .page-heading {
-    font-family "Operator Mono A", "Operator Mono B", "Fira Mono", Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
-    font-size 4rem
+    font-family "Helvetica Neue", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", sans-serif
+    font-size 6.2rem
     background-color: #590df6;
     background-image: url(/images/y-pattern.png),
       linear-gradient(34deg, #3e2c56 0%, #2a1c3c 100%);
@@ -661,3 +669,21 @@ div.img
     background-image url(/images/git-win-05-extras.png)
   &.vscode-setup
     background-image url(/images/vscode-setup.png)
+
+kbd
+  font-family arial
+  display inline-block
+  margin 0 .1em
+  padding .1em .6em
+  font-size 11px
+  line-height 1.4
+  color #242729
+  text-shadow 0 1px 0 #FFF
+  background-color #e1e3e5
+  border 1px solid #adb3b9
+  border-radius 3px
+  box-shadow 0 1px 0 rgba(12,13,14,0.2), 0 0 0 2px #FFF inset
+  white-space nowrap
+
+#body img.no-margin
+  margin 0
