@@ -64,8 +64,8 @@ button.onclick((ev) => {
 {{< /code >}}
 
 ## Presentations
-* <a target="_blank" href="#">JavaScript History</a>
-* <a target="_blank" href="#">Bootcamp Expectations and Tips for Success</a>
+* <a target="_blank" href="/history-of-the-web.pdf">JavaScript History</a>
+* <a target="_blank" href="/bootcamp-success.pdf">Bootcamp Expectations and Tips for Success</a>
 
 ## Links
 * [Foundation CSS Framework](http://foundation.zurb.com)
