@@ -73,7 +73,7 @@ button.onclick((ev) => {
 
 ## Homework
 ### People Factory
-Link: [https://github.com/xtbc17s1/people-factory](https://github.com/xtbc17s1/people-factory)
+Link: [Morning](https://github.com/xtbc17s1/people-factory) | [Afternoon](https://github.com/xtbc17s1/people-factory/tree/afternoon)
 #### Basic Homework
 Add form values to `.details` using `document.createElement` and `appendChild`, instead of `innerHTML`.
 #### Bonus Credit
