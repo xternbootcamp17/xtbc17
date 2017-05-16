@@ -8,6 +8,15 @@ weight = 2
 
 +++
 
+## Lecture Videos
+
+Morning:
+
+* [Full Playlist](https://www.youtube.com/playlist?list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F)
+* [Part One](https://www.youtube.com/watch?v=wISoJ_P7aNs&t=10s&list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&index=1)
+* [Part Two](https://www.youtube.com/watch?v=6JkRe4ZLhGQ&index=2&list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F)
+* [Part Three](https://www.youtube.com/watch?v=YQrKjzVOuxs&index=3&list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F)
+
 ## Topics
 
 ### Functions
@@ -23,13 +32,18 @@ weight = 2
 * Setting property values
 
 ### Arrays
-* `Array.from`
-* `Array.map`
+* `Array.from` - [Docs on MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from?v=control)
+* `Array.map` - [Docs on MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map?v=control) | [Understanding JavaScript's `map()`](https://www.discovermeteor.com/blog/understanding-javascript-map/) blog post
 
 ### DOM
 * Creating elements with `document.createElement`
 * Setting style properties with `someElement.style.stylePropertyName`
 * Appending child elements with `someElement.appendChild`
+* [Form.elements](https://developer.mozilla.org/en-US/docs/Web/API/HTMLFormElement/elements)
+
+### Git and GitHub
+* [Git - The Simple Guide](http://rogerdudler.github.io/git-guide/)
+* [Getting your project on GitHub](https://guides.github.com/introduction/getting-your-project-on-github/)
 
 ## Examples
 
@@ -182,12 +196,10 @@ This will produce the following markup:
 &lt;/div&gt;
 {{< /code >}}
 
-## Lecture Videos
+## Projects
 
-* [Full Playlist](https://www.youtube.com/playlist?list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F)
-* [Part One](https://www.youtube.com/watch?v=wISoJ_P7aNs&t=10s&list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&index=1)
-* [Part Two](https://www.youtube.com/watch?v=6JkRe4ZLhGQ&index=2&list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F)
-* [Part Three](https://www.youtube.com/watch?v=YQrKjzVOuxs&index=3&list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F)
+### People Factory
+Link: [Morning](https://github.com/xtbc17s1/people-factory) | [Afternoon](https://github.com/xtbc17s1/people-factory/tree/afternoon)
 
 ## Homework
 ### Megaroster

@@ -32,6 +32,7 @@ weight = 1
 * Template strings
   * String interpolation, _e.g._ `Hi, ${name}`
   * Multi-line strings
+* Emmet abbreviations for code editors ([syntax reference](https://docs.emmet.io/abbreviations/syntax/))
 
 ## DOM Manipulation
 {{< code html >}}
