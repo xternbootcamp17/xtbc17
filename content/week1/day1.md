@@ -1,7 +1,7 @@
 +++
 date = "2017-05-15T11:13:46-04:00"
 title = "Day 1: Introduction"
-next="/week1/day1"
+next="/week1/day2"
 prev="/week1"
 toc = true
 weight = 1
