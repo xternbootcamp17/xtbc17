@@ -2,7 +2,7 @@
 date = "2017-05-16T10:06:46-04:00"
 title = "Day 2: Functions and Objects"
 toc = true
-next="/week1/day2"
+next="/week1/day3"
 prev="/week1/day1"
 weight = 2
 
