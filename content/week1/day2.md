@@ -12,10 +12,11 @@ weight = 2
 
 Morning:
 
-* [Full Playlist](https://www.youtube.com/playlist?list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F)
-* [Part One](https://www.youtube.com/watch?v=wISoJ_P7aNs&t=10s&list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&index=1)
-* [Part Two](https://www.youtube.com/watch?v=6JkRe4ZLhGQ&index=2&list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F)
-* [Part Three](https://www.youtube.com/watch?v=YQrKjzVOuxs&index=3&list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F)
+* [Full Playlist](https://www.youtube.com/playlist?list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F) | [part 1](https://www.youtube.com/watch?v=wISoJ_P7aNs&t=10s&list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&index=1) | [part 2](https://www.youtube.com/watch?v=6JkRe4ZLhGQ&index=2&list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F) | [part 3](https://www.youtube.com/watch?v=YQrKjzVOuxs&index=3&list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F)
+
+Afternoon:
+
+* [Full Playlist](https://www.youtube.com/playlist?list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG) | [part 1](https://www.youtube.com/watch?v=Lz9SD8oDm3M&list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&index=1) | [part 2](https://www.youtube.com/watch?v=kmLCIy6reuk&list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&index=2) | part 3 coming soon; check the playlist.
 
 ## Topics
 
