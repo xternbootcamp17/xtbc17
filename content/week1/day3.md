@@ -10,13 +10,15 @@ next="/week1/day3"
 
 ## Lecture Videos
 
+We'll only be linking to the playlists themselves and to the first video for each day/session. They are broken into many parts, all of which will be in the playlists.
+
 Morning:
 
-* [Full Playlist]() | [part 1]() | [part 2]() | [part 3]()
+* [Full Playlist](https://www.youtube.com/playlist?list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F) | [Day 3, part 1](https://www.youtube.com/watch?v=FpmyQ-Cet6o&index=4&list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F)
 
 Afternoon:
 
-* [Full Playlist]() | [part 1]() | [part 2]() | [part 3]()
+* [Full Playlist](https://www.youtube.com/playlist?list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG) | Day 3 still uploading
 
 ## Topics
 
@@ -44,6 +46,7 @@ Afternoon:
 * [firstChild](https://developer.mozilla.org/en-US/docs/Web/API/Node/firstChild)
 * [firstElementChild](https://developer.mozilla.org/en-US/docs/Web/API/ParentNode/firstElementChild)
 * [insertBefore](https://developer.mozilla.org/en-US/docs/Web/API/Node/insertBefore)
+* [closest](https://developer.mozilla.org/en-US/docs/Web/API/Element/closest) (experimental)
 
 ## Examples
 
@@ -125,9 +128,17 @@ boundGetX()       // 81
 // by binding to module, 'this' will always be set to module for boundGetX
 {{< /code >}}
 
+## Projects
+
+### Megaroster
+
+[Morning](https://github.com/xtbc17s1/megaroster/tree/d733ad2186e75deb8331b0c2d39736595379d1bd) | [Afternoon](https://github.com/xtbc17s1/megaroster/tree/a725906dec243ea053d75822cfd1621a8d555909)
+
+These are links directly to the repo as of the commits where we left off today. Even after we add more commits tomorrow, these links will still point to this point in time.
+
 ## Homework
 
-Finish yesterday's homework, using [my Megaroster](https://github.com/xtbc17s1/megaroster) as a base. Don't forget to keep the `students` array in sync.
+Finish yesterday's homework, using my Megaroster ([morning](https://github.com/xtbc17s1/megaroster/tree/d733ad2186e75deb8331b0c2d39736595379d1bd) | [afternoon](https://github.com/xtbc17s1/megaroster/tree/a725906dec243ea053d75822cfd1621a8d555909)) as a base. Don't forget to keep the `students` array in sync with the DOM.
 
 ### Bonus Credit
 
