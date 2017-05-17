@@ -16,7 +16,7 @@ Morning:
 
 Afternoon:
 
-* [Full Playlist](https://www.youtube.com/playlist?list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG) | [part 1](https://www.youtube.com/watch?v=Lz9SD8oDm3M&list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&index=1) | [part 2](https://www.youtube.com/watch?v=kmLCIy6reuk&list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&index=2) | part 3 coming soon; check the playlist.
+* [Full Playlist](https://www.youtube.com/playlist?list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG) | [part 1](https://www.youtube.com/watch?v=Lz9SD8oDm3M&list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&index=1) | [part 2](https://www.youtube.com/watch?v=kmLCIy6reuk&list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&index=2) | [part 3](https://www.youtube.com/watch?v=T-JKi6NUxG8&list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&index=3)
 
 ## Topics
 
