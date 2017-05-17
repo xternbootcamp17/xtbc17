@@ -10,15 +10,13 @@ next="/week1/day3"
 
 ## Lecture Videos
 
-We'll only be linking to the playlists themselves and to the first video for each day/session. They are broken into many parts, all of which will be in the playlists.
-
 Morning:
 
-* [Full Playlist](https://www.youtube.com/playlist?list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F) | [Day 3, part 1](https://www.youtube.com/watch?v=FpmyQ-Cet6o&index=4&list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F)
+* [Full Playlist](https://www.youtube.com/playlist?list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F) | [Day 3, part 1](https://www.youtube.com/watch?v=FpmyQ-Cet6o&index=4&list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F) | [2](https://www.youtube.com/watch?v=p9T-YJISXHY&list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&index=5) | [3](https://www.youtube.com/watch?v=whGokpO6Wpw&list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&index=6) | [4](https://www.youtube.com/watch?v=Iv_OFDB_-Oc&list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&index=7) | [5](https://www.youtube.com/watch?v=uAnBpVRmCzo&list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&index=8) | [6](https://www.youtube.com/watch?v=tF8s6DemQ7M&list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&index=9) | [7](https://www.youtube.com/watch?v=q5qx7KgjY0E&list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&index=10)
 
 Afternoon:
 
-* [Full Playlist](https://www.youtube.com/playlist?list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG) | Day 3 still uploading
+* [Full Playlist](https://www.youtube.com/playlist?list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG) | [Day 3, part 1](https://www.youtube.com/watch?v=wOYPD1Upfh4&index=4&list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG) | [2]() | [3]() | [4]() | [5]() | [6]() | [7]() | [8]() | [9]() | [10]() | [11]() | [12]()
 
 ## Topics
 
