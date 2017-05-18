@@ -43,7 +43,8 @@ Afternoon:
 ### CSS Selectors
 * [`:first-child` pseudo-selector](http://www.w3schools.com/cssref/sel_firstchild.asp)
 * [`:last-child` pseudo-selector](http://www.w3schools.com/cssref/sel_last-child.asp)
-* [`>` selector](https://www.w3schools.com/cssref/sel_element_gt.asp)
+* [`>` child selector](https://www.w3schools.com/cssref/sel_element_gt.asp)
+* [`+` adjacent sibling selector](https://css-tricks.com/almanac/selectors/a/adjacent-sibling/)
 
 ### JavaScript Classes
 * Class declarations
