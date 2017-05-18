@@ -16,7 +16,7 @@ Morning:
 
 Afternoon:
 
-* [Full Playlist](https://www.youtube.com/playlist?list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG) | [Day 3, part 1](https://www.youtube.com/watch?v=wOYPD1Upfh4&index=4&list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG) | [2](https://www.youtube.com/watch?v=cw7aB9rTuds&index=5&list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG) | [3](https://www.youtube.com/watch?v=I1eF0wpsPWw&index=6&list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG) | [4](https://www.youtube.com/watch?v=P_L7KjyrYjs&index=7&list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG) | [5]() | [6]() | [7]() | [8]() | [9]() | [10]() | [11]() | [12]()
+* [Full Playlist](https://www.youtube.com/playlist?list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG) | [Day 3, part 1](https://www.youtube.com/watch?v=wOYPD1Upfh4&index=4&list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG) | [2](https://www.youtube.com/watch?v=cw7aB9rTuds&index=5&list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG) | [3](https://www.youtube.com/watch?v=I1eF0wpsPWw&index=6&list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG) | [4](https://www.youtube.com/watch?v=P_L7KjyrYjs&index=7&list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG) | [5](https://www.youtube.com/watch?v=dEwP0rvy2V4&list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&index=8) | [6]() | [7]() | [8]() | [9]() | [10]() | [11]() | [12]()
 
 ## Topics
 
