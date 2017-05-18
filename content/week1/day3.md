@@ -4,7 +4,7 @@ title = "Day 3: Megaroster"
 toc = true
 weight = 3
 prev="/week1/day2"
-next="/week1/day3"
+next="/week1/day4"
 
 +++
 
