@@ -126,6 +126,10 @@ boundGetX()       // 81
 // by binding to module, 'this' will always be set to module for boundGetX
 {{< /code >}}
 
+## Presentations
+
+* [Review: Objects and Functions](/03-review-objects-and-functions.pdf)
+
 ## Projects
 
 ### Megaroster

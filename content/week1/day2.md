@@ -197,6 +197,10 @@ This will produce the following markup:
 &lt;/div&gt;
 {{< /code >}}
 
+## Presentations
+
+* [Review: HTML and the DOM](/02-html-dom.pdf)
+
 ## Projects
 
 ### People Factory
