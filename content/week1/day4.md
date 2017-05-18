@@ -12,11 +12,11 @@ next="/week1/day4"
 
 Morning:
 
-* [Full Playlist]() | Day 4 [part 1]() | [2]() | [3]() | [4]() | [5]() | [6]() | [7]()
+* [Full Playlist](https://www.youtube.com/playlist?list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F) | [Day 4, part 1](https://www.youtube.com/watch?v=YGj8J6MceYg&list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&index=11) | [2](https://www.youtube.com/watch?v=zvYmxL1ojaI&list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&index=12) | [3](https://www.youtube.com/watch?v=MALqYKxz9-Y&list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&index=13) | [4](https://www.youtube.com/watch?v=8wfKQnitrmY&list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&index=14) | [5](https://www.youtube.com/watch?v=2l7bv4a3S-s&list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&index=15) | [6](https://www.youtube.com/watch?v=59thZz_yFgE&list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&index=16) | [7](https://www.youtube.com/watch?v=w-bqy6n8Gco&list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&index=17)
 
 Afternoon:
 
-* [Full Playlist]() | Day 4 [part 1]() | [2]() | [3]() | [4]() | [5]() | [6]() | [7]() | [8]() | [9]() | [10]() | [11]()
+* [Full Playlist](https://www.youtube.com/playlist?list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG) | [Day 4, part 1](https://www.youtube.com/watch?v=mpEFSr8eXEY&index=16&list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG) | [2](https://www.youtube.com/watch?v=IkNAVmWuPDU&index=17&list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG) | [3](https://www.youtube.com/watch?v=i2XL0mV1qmU&index=18&list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG) | [4](https://www.youtube.com/watch?v=3KIvEuhPJag&index=19&list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG) | [5](https://www.youtube.com/watch?v=gTiMSnn-4nU&index=20&list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG) | [6](https://www.youtube.com/watch?v=xd2ewpDX_yE&index=21&list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG) | [7]() | [8]() | [9]() | [10]() | [11]()
 
 ## Topics
 
@@ -182,7 +182,7 @@ rodent.bark()   // => Uncaught TypeError: rodent.bark is not a function
 
 ### Megaroster
 
-[Morning](https://github.com/xtbc17s1/megaroster/tree/a670202dbaf83acd6d8655ad57d6aae0d54271bd) | [Afternoon]()
+[Morning](https://github.com/xtbc17s1/megaroster/tree/b3f42521a8c764fc7c956cb8a01ee322dc2b9e2b) | [Afternoon](https://github.com/xtbc17s1/megaroster/tree/443b3c889e4b7592bc842570c3a6c681b2900977)
 
 ## Homework
 
