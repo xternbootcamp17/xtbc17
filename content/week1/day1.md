@@ -30,7 +30,7 @@ weight = 1
   * `.preventDefault`
   * `.target`
 * Template strings
-  * String interpolation, _e.g._ `Hi, ${name}`
+  * String interpolation, _e.g._ `` `Hi, ${name}` ``
   * Multi-line strings
 * Emmet abbreviations for code editors ([syntax reference](https://docs.emmet.io/abbreviations/syntax/))
 
