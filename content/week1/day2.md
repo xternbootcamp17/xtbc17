@@ -204,7 +204,7 @@ This will produce the following markup:
 ## Projects
 
 ### People Factory
-Link: [Morning](https://github.com/xtbc17s1/people-factory) | [Afternoon](https://github.com/xtbc17s1/people-factory/tree/afternoon)
+[Morning](https://github.com/xtbc17s1/people-factory) | [Afternoon](https://github.com/xtbc17s1/people-factory/tree/afternoon)
 
 ## Homework
 ### Megaroster

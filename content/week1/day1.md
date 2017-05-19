@@ -72,13 +72,17 @@ button.onclick((ev) => {
 * [Foundation CSS Framework](http://foundation.zurb.com)
 * [Mozilla Developer Network (MDN)](https://developer.mozilla.org/en-US/) - An excellent documentation and learning resource for all your HTML/CSS/JS needs
 
-## Homework
+## Projects
+
 ### People Factory
-Link: [Morning](https://github.com/xtbc17s1/people-factory) | [Afternoon](https://github.com/xtbc17s1/people-factory/tree/afternoon)
-#### Basic Homework
+[Morning](https://github.com/xtbc17s1/people-factory/tree/3a7d947fa8b62fe6516a801db89bd2e0899a5385) | [Afternoon](https://github.com/xtbc17s1/people-factory/tree/9d9e368d4125a2a3a1af549eb299ac9ebfdfad88)
+
+## Homework
+
 Add form values to `.details` using `document.createElement` and `appendChild`, instead of `innerHTML`.
+
 #### Bonus Credit
 Break out some of this functionality into a separate function.
+
 #### Super Mega Bonus Credit
 Do not hard-code the names of the fields in your JavaScript. Loop over all the elements in the form.
-
