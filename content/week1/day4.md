@@ -20,7 +20,7 @@ Afternoon:
 
 ## Topics
 
-### `localStorage`
+### `localStorage` [↓](#localstorage)
 * [Using `localStorage`]((https://www.smashingmagazine.com/2010/10/local-storage-and-how-to-use-it/))
 * `JSON.stringify`
   * [Using `JSON.stringify`](http://www.dyn-web.com/tutorials/php-js/json/stringify.php)
@@ -30,7 +30,7 @@ Afternoon:
   * [Using `JSON.parse`](http://www.dyn-web.com/tutorials/php-js/json/parse.php)
   * [API reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse), including optional argument for transforming the data as it's parsed
 
-### Font Awesome
+### Font Awesome [↓](#font-awesome)
 * [Docs](http://fontawesome.io/)
 * [Examples](http://fontawesome.io/examples/)
 * [Icon list](http://fontawesome.io/icons/)
@@ -38,23 +38,34 @@ Afternoon:
 * [Icon Fonts &amp; Accessibility](http://fontawesome.io/accessibility/)
 
 ### Foundation
-* [Button styles](http://foundation.zurb.com/sites/docs/v/5.5.3/components/buttons.html)
+* [Button](http://foundation.zurb.com/sites/docs/button.html)
+* [Button Group](http://foundation.zurb.com/sites/docs/button-group.html)
+* [Forms](http://foundation.zurb.com/sites/docs/forms.html)
 
 ### CSS Selectors
-* [`:first-child` pseudo-selector](http://www.w3schools.com/cssref/sel_firstchild.asp)
-* [`:last-child` pseudo-selector](http://www.w3schools.com/cssref/sel_last-child.asp)
-* [`>` child selector](https://www.w3schools.com/cssref/sel_element_gt.asp)
-* [`+` adjacent sibling selector](https://css-tricks.com/almanac/selectors/a/adjacent-sibling/)
+**[Child and sibling selectors](https://css-tricks.com/child-and-sibling-selectors/)**
 
-### JavaScript Classes
+* [Descendant selector (_space_)](https://css-tricks.com/almanac/selectors/d/descendant/)
+* [`>` combinator - child selector](https://css-tricks.com/almanac/selectors/c/child/)
+* [`+` combinator - adjacent sibling selector)](https://css-tricks.com/almanac/selectors/a/adjacent-sibling/)
+* [`:first-child` pseudo-class selector](https://css-tricks.com/almanac/selectors/f/first-child/)
+* [`:last-child` pseudo-class selector](https://css-tricks.com/almanac/selectors/l/last-child/)
+
+### Array methods
+* [`Array.prototype` documentation on MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/prototype?v=control)
+* [`reverse()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse?v=control)
+* `find()` - [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find?v=control) | [w3schools](https://www.w3schools.com/jsref/jsref_find.asp)
+* `findIndex()` - [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/findIndex?v=control) | [w3schools](https://www.w3schools.com/jsref/jsref_findindex.asp)
+
+### JavaScript Classes [↓](#javascript-classes)
 * Class declarations
 * The `constructor` function
 * Methods
 * Instantiating objects from a class
 
 ### Chrome Developer Tools
-* Accessing selected elements with `$`
-* Read [this article](https://willd.me/posts/0-in-chrome-dev-tools) for more details
+* [Accessing recently inspected elements with `$0`-`$4`](https://willd.me/posts/0-in-chrome-dev-tools) ([official docs](https://developers.google.com/web/tools/chrome-devtools/console/command-line-reference#0_-_4))
+* [Inspecting storage from the _Application_ panel](https://developers.google.com/web/tools/chrome-devtools/manage-data/local-storage)
 
 ## Examples
 ### localStorage
@@ -187,10 +198,9 @@ rodent.bark()   // => Uncaught TypeError: rodent.bark is not a function
 
 ## Homework
 
-Make "move down" work if you haven't already.
-
-Allow the editing of student names after they're already in the list. (Gee, it would be nice if I could make that span's _content editable_!)
+* Make "move down" work if you haven't already.
+* Allow the editing of student names after they're already in the list. (Gee, it would be nice if I could make that span's _content editable_!)
 
 ### Super Mega Bonus Credit Hyper Fighting
 
-Have a nice weekend.
+Have a nice weekend!
