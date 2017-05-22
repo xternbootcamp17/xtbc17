@@ -17,7 +17,7 @@ Morning:
 
 Afternoon:
 
-* [Full Playlist](https://www.youtube.com/playlist?list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG) | [Day 5, part 1]() | [2]() | [3]() | [4]() | [5]() | [6]() | [7]() | [8]() | [9]() | [10]() | [11]()
+* [Full Playlist](https://www.youtube.com/playlist?list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG) | [Day 5, part 1](https://www.youtube.com/watch?v=sPn2ED9hZ1I&list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&index=27) | [2](https://www.youtube.com/watch?v=a7eaK1Z5M5c&list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&index=28) | [3](https://www.youtube.com/watch?v=9xKX0Tb6Yzk&list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&index=29) | [4](https://www.youtube.com/watch?v=une1or5LnVM&list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&index=30) | [5](https://www.youtube.com/watch?v=e4AaZu2vLKs&list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&index=31) | [6]() | [7]() | [8]() | [9]() | [10]() | [11]()
 
 ## Topics
 
@@ -82,7 +82,7 @@ A minimal example:
 &lt;/html&gt;
 {{< /code >}}
 
-{{< code js >}}
+{{< code jsx >}}
 // App.js
 class App extends React.Component {
   render() {
@@ -103,7 +103,7 @@ React will 'fill in' the div with the return result of the `App` component's `re
 
 React components can be thought of as JavaScript functions.  They take in arguments, called `props`, and return markup that gets rendered to the page. Props can be just about anything, including strings, booleans, functions, objects, etc...
 
-{{< code js >}}
+{{< code jsx >}}
 class App extends React.Component {
   render() {
     return (
@@ -123,7 +123,38 @@ Our rendered output would then be:
 &lt;h1&gt;Hello, Bob!&lt;/h1&gt;
 {{< /code >}}
 
+#### State
 
+Components receive _props_ as arguments and cannot change their values. Data that needs to change belongs in _state_.
+
+State should be initialized in the constructor and updated via `setState`.
+
+{{% aside danger Do Not Modify State Directly %}}
+Always use `setState` to modify a component's state. The only time you should set state directly is in the constructor.
+{{% /aside %}}
+
+{{< code jsx >}}
+class App extends React.Component {
+  constructor {
+    super()
+    this.state = {
+      count: 0
+    }
+  }
+
+  increment(ev) {
+    count = this.state.count + 1
+    this.setState({ count })
+  }
+
+  render() {
+    return (
+      <button type="button" onClick="increment.bind(this)"></button>
+    )
+  }
+}
+&lt;App name=&quot;Bob&quot; /&gt;
+{{< /code >}}
 
 ## Projects
 
