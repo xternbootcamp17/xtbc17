@@ -17,13 +17,17 @@ Morning:
 
 Afternoon:
 
-* [Full Playlist](https://www.youtube.com/playlist?list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG) | [Day 5, part 1](https://www.youtube.com/watch?v=sPn2ED9hZ1I&list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&index=27) | [2](https://www.youtube.com/watch?v=a7eaK1Z5M5c&list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&index=28) | [3](https://www.youtube.com/watch?v=9xKX0Tb6Yzk&list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&index=29) | [4](https://www.youtube.com/watch?v=une1or5LnVM&list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&index=30) | [5](https://www.youtube.com/watch?v=e4AaZu2vLKs&list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&index=31) | [6]() | [7]() | [8]() | [9]() | [10]() | [11]()
+* [Full Playlist](https://www.youtube.com/playlist?list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG) | [Day 5, part 1](https://www.youtube.com/watch?v=sPn2ED9hZ1I&list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&index=27) | [2](https://www.youtube.com/watch?v=a7eaK1Z5M5c&list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&index=28) | [3](https://www.youtube.com/watch?v=9xKX0Tb6Yzk&list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&index=29) | [4](https://www.youtube.com/watch?v=une1or5LnVM&list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&index=30) | [5](https://www.youtube.com/watch?v=e4AaZu2vLKs&list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&index=31) | [6](https://www.youtube.com/watch?v=F1bnQNnkOnE&index=32&list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG) | [7](https://www.youtube.com/watch?v=A0H3Th9WA7k&index=33&list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG) | [8](https://www.youtube.com/watch?v=slJzlsbhxDE&index=34&list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG) | [9]() | [10]() | [11]()
 
 ## Topics
 
 ### DOM Manipulation
 * `contenteditable` - [MDN documentation](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/contenteditable)
 * `keypress` events
+
+### ES2015+ (ES6+)
+* Inheritance (with the ES2015 `class` syntax; it's still _prototypal_ inheritance though) - [ES2015 classes on Babel](https://babeljs.io/learn-es2015/#ecmascript-2015-features-classes)
+* Modules (import/export) - [ES2015 modules on Babel](https://babeljs.io/learn-es2015/#ecmascript-2015-features-modules)
 
 ### [React](https://facebook.github.io/react/)
 * [Imperative vs. Declarative](https://tylermcginnis.com/imperative-vs-declarative-programming/)
@@ -32,7 +36,6 @@ Afternoon:
   * Props - [Docs: Components and Props](https://facebook.github.io/react/docs/components-and-props.html)
   * State - [Docs: State and Lifecycle](https://facebook.github.io/react/docs/state-and-lifecycle.html)
 * [create-react-app](https://github.com/facebookincubator/create-react-app)
-* Inheritance in JavaScript (`extends` keyword)
 
 ## Examples
 
@@ -160,6 +163,40 @@ class App extends React.Component {
 }
 
 &lt;App /&gt;
+{{< /code >}}
+
+#### Modules
+
+With [modules](https://babeljs.io/learn-es2015/#ecmascript-2015-features-modules), you can define each component in separate files, importing them as needed.
+
+**Header.js**
+
+{{< code jsx >}}
+class Header extends React.Component {
+  render() {
+    return (
+      &lt;h1&gt;Hello, {this.props.name}!&lt;/h1&gt;
+    )
+  }
+}
+
+export default Header
+{{< /code >}}
+
+**App.js**
+
+{{< code jsx >}}
+import Header from './Header'
+
+class App extends React.Component {
+  render() {
+    return (
+      &lt;Header name=&quot;Bob&quot; /&gt;
+    )
+  }
+}
+
+export default App
 {{< /code >}}
 
 ## Projects
