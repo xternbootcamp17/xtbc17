@@ -17,7 +17,7 @@ Morning:
 
 Afternoon:
 
-* [Full Playlist](https://www.youtube.com/playlist?list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG) | [Day 5, part 1](https://www.youtube.com/watch?v=sPn2ED9hZ1I&list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&index=27) | [2](https://www.youtube.com/watch?v=a7eaK1Z5M5c&list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&index=28) | [3](https://www.youtube.com/watch?v=9xKX0Tb6Yzk&list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&index=29) | [4](https://www.youtube.com/watch?v=une1or5LnVM&list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&index=30) | [5](https://www.youtube.com/watch?v=e4AaZu2vLKs&list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&index=31) | [6](https://www.youtube.com/watch?v=F1bnQNnkOnE&index=32&list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG) | [7](https://www.youtube.com/watch?v=A0H3Th9WA7k&index=33&list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG) | [8](https://www.youtube.com/watch?v=slJzlsbhxDE&index=34&list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG) | [9]() | [10]() | [11]()
+* [Full Playlist](https://www.youtube.com/playlist?list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG) | [Day 5, part 1](https://www.youtube.com/watch?v=sPn2ED9hZ1I&list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&index=27) | [2](https://www.youtube.com/watch?v=a7eaK1Z5M5c&list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&index=28) | [3](https://www.youtube.com/watch?v=9xKX0Tb6Yzk&list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&index=29) | [4](https://www.youtube.com/watch?v=une1or5LnVM&list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&index=30) | [5](https://www.youtube.com/watch?v=e4AaZu2vLKs&list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&index=31) | [6](https://www.youtube.com/watch?v=F1bnQNnkOnE&index=32&list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG) | [7](https://www.youtube.com/watch?v=A0H3Th9WA7k&index=33&list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG) | [8](https://www.youtube.com/watch?v=slJzlsbhxDE&index=34&list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG)
 
 ## Topics
 
@@ -198,6 +198,10 @@ class App extends React.Component {
 
 export default App
 {{< /code >}}
+
+## Presentations
+
+* [Intro to React](/05-intro-to-react.pdf)
 
 ## Projects
 
