@@ -34,6 +34,97 @@ Afternoon:
 * [create-react-app](https://github.com/facebookincubator/create-react-app)
 * Inheritance in JavaScript (`extends` keyword)
 
+## Examples
+
+### DOM Manipulation
+`contentEditable` is a property that, like the name suggests, allows the content of an HTML element to be edited through user interaction with the DOM (similar to a text input field).
+
+{{< code html >}}
+&lt;div class=&quot;person-name&quot;&gt;Mark&lt;/div&gt;
+&lt;button&gt;Click to Edit Name&lt;/button&gt;
+{{< /code >}}
+
+{{< code js >}}
+const nameDiv = document.querySelector('.person-name')
+console.log(nameDiv.isContentEditable) // => false
+
+const button = document.querySelector('button')
+button.addEventListener('click', (ev) => {
+  nameDiv.contentEditable = true
+  console.log(nameDiv.isContentEditable)
+})
+
+button.click() // => true (and div content will be editable)
+{{< /code >}}
+
+### React
+
+#### Basic App
+A basic React application requires a minimum of four things:
+
+1. An HTML file with at least one empty element
+2. The React library
+3. One or more React Component(s)
+4. A JavaScript call to attach the React Component to the empty element in step one
+
+A minimal example:
+
+{{< code html >}}
+&lt;-- index.html --&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;Basic React App&lt;/title&gt;
+    &lt;script src=&quot;App.js&quot;&gt;&lt;/script&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;div id=&quot;app&quot;&gt;&lt;/div&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+{{< /code >}}
+
+{{< code js >}}
+// App.js
+class App extends React.Component {
+  render() {
+    return (
+      &lt;h1&gt;Hello, world!&lt;/h1&gt;
+    )
+  }
+}
+
+ReactDOM.render(&lt;App /&gt;, document.querySelector('#app'))
+{{< /code >}}
+
+The body of the HTML above contains only an empty `div` with an id of 'app'.  This is where we will tell React to render our app. The `App.js` file defines the `App` component, and also makes the call to `ReactDOM.render`, which attaches `<App />` to the `div#app` element.
+
+React will 'fill in' the div with the return result of the `App` component's `render` method, in this case, the markup `<h1>Hello, world!</h1>`.
+
+#### Props
+
+React components can be thought of as JavaScript functions.  They take in arguments, called `props`, and return markup that gets rendered to the page. Props can be just about anything, including strings, booleans, functions, objects, etc...
+
+{{< code js >}}
+class App extends React.Component {
+  render() {
+    return (
+      &lt;h1&gt;Hello, {this.props.name}!&lt;/h1&gt;
+    )
+  }
+}
+
+&lt;App name=&quot;Bob&quot; /&gt;
+{{< /code >}}
+
+By passing in the string `"Bob"` to the `App` component, we can access that value from within the `App` class as a property on `this.props`.
+
+Our rendered output would then be:
+
+{{< code html >}}
+&lt;h1&gt;Hello, Bob!&lt;/h1&gt;
+{{< /code >}}
+
+
+
 ## Projects
 
 * Megaroster (final): [morning] |(https://github.com/xtbc17s1/megaroster/tree/3ccd25f25db46ecff45a5b86ba32affcfb730f2d) | [afternoon]()
