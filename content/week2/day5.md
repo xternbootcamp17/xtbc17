@@ -135,7 +135,7 @@ Always use `setState` to modify a component's state. The only time you should se
 
 {{< code jsx >}}
 class App extends React.Component {
-  constructor {
+  constructor() {
     super()
     this.state = {
       count: 0
@@ -149,17 +149,23 @@ class App extends React.Component {
 
   render() {
     return (
-      <button type="button" onClick="increment.bind(this)"></button>
+      &lt;button type="button" onClick={this.increment.bind(this)}&gt;
+        Click to Increment
+      &lt;/button&gt;
+      &lt;p&gt;
+        Button has been clicked {this.state.count} times
+      &lt;p&gt;
     )
   }
 }
-&lt;App name=&quot;Bob&quot; /&gt;
+
+&lt;App /&gt;
 {{< /code >}}
 
 ## Projects
 
-* Megaroster (final): [morning] |(https://github.com/xtbc17s1/megaroster/tree/3ccd25f25db46ecff45a5b86ba32affcfb730f2d) | [afternoon]()
-* Reactrobats on CodePen: [morning](https://codepen.io/dstrus/pen/BRvLNg/) | [afternoon]()
+* Megaroster (final): [morning](https://github.com/xtbc17s1/megaroster/tree/3ccd25f25db46ecff45a5b86ba32affcfb730f2d) | [afternoon](https://github.com/xtbc17s1/megaroster/commit/fc97404dada2d594970f64e9e4fbd3e9b3f6a271)
+* Reactrobats on CodePen: [morning](https://codepen.io/dstrus/pen/BRvLNg/) | [afternoon](https://codepen.io/dstrus/pen/XRoMmR/)
 * [Dwarf Underground](https://github.com/xtbc17s1/dwarf-underground)
 
 ## Homework
