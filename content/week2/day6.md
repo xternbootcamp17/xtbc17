@@ -32,6 +32,8 @@ Afternoon:
 * Named and default exports
 * Named and default imports
 * Property initializers
+* Spread operator
+* Destructuring assignment
 
 ### Package Managers
 
@@ -248,6 +250,54 @@ class Something extends React.Component {
 {{% aside danger "Subject to  minor changes" %}}
 [Property initializers](https://github.com/tc39/proposal-class-public-fields) are a [Stage 2 proposal](https://tc39.github.io/process-document/) for ECMAScript, meaning that it's still a _draft_ and is subject to minor changes before becoming standardized. Facebook itself is already using these techniques in production, however.
 {{% /aside %}}
+
+#### Spread operator
+
+The [*spread operator*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_operator) was added in ES6 to allow an expression to be expanded in places where multiple arguments (for function calls) or multiple elements (for array literals) or multiple variables (for destructuring assignment) are expected.
+
+{{< code js >}}
+function myFunc (x, y, z) {
+  console.log(x)
+  console.log(y)
+  console.log(z)
+}
+const args = [1, 2, 3]
+
+myFunc(...args) // the spread '...args' applies the items in args to the three arguments in myFunc
+// => 1
+// => 2
+// => 3
+{{< /code >}}
+
+It is also an easy way to make copies of iterable objects
+
+{{< code js >}}
+const ary = [1, 2, 3]
+const aryCopy = [...ary] // makes a copy of ary
+{{< /code >}}
+
+If you are in a project using Babel (like a React project created with `create-react-app`), you can also use the `object-rest-spread-transform` to apply this same method to objects.
+
+{{< code js >}}
+this.state = {'a': true, party: 'hard'}
+const stateCopy = {...this.state} // makes a copy of this.state
+{{< /code >}}
+
+#### Destructuring assignment
+
+[Destructuring assignment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment) syntax is a JavaScript expression that makes it possible to unpack values from arrays, or properties from objects, into distinct variables.
+
+{{< code js >}}
+const myObj = {
+  a: true,
+  b: 'Destructuring!'
+}
+
+let { a, b } = myObj
+
+console.log(a) // => true
+console.log(b) // => 'Destructuring!'
+{{< /code >}}
 
 ### Package Managers
 
