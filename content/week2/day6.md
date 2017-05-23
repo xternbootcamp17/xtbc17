@@ -13,11 +13,11 @@ weight = 2
 
 Morning:
 
-* [Full Playlist](https://www.youtube.com/playlist?list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F) | [Day 6, part 1]() | [2]() | [3]() | [4]() | [5]() | [6]() | [7]() | [8]()
+* [Full Playlist](https://www.youtube.com/playlist?list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F) | [Day 6, part 1](https://www.youtube.com/watch?v=oWb1IdhOl7A&index=26&list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F) | [2](https://www.youtube.com/watch?v=SsBUeaku12g&index=27&list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F) | [3](https://www.youtube.com/watch?v=IlUoLPsrHrE&index=28&list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F) | [4](https://www.youtube.com/watch?v=E01j6AcMSF4&index=29&list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F) | [5](https://www.youtube.com/watch?v=xytTTrggEyc&index=30&list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F) | [6](https://www.youtube.com/watch?v=9Dn6aMJMEHc&index=31&list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F) | [7](https://www.youtube.com/watch?v=Smzb6gGyz3w&index=32&list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F)
 
 Afternoon:
 
-* [Full Playlist](https://www.youtube.com/playlist?list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG) | [Day 6, part 1]() | [2]() | [3]() | [4]() | [5]() | [6]() | [7]() | [8]()
+* [Full Playlist](https://www.youtube.com/playlist?list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG) | [Day 6, part 1]() | [2]() | [3]() | [4]() | [5]() | [6]() | [7]()
 
 ## Topics
 
@@ -26,12 +26,12 @@ Afternoon:
 * Using `map` with components
 * Stateless Functional Components
 * Conditional rendering
-* Property initializers
 
 ### JavaScript
 
 * Named and default exports
 * Named and default imports
+* Property initializers
 
 ## Examples
 
@@ -64,6 +64,7 @@ class PersonList extends React.Component {
   render() {
     const people = [
       { name: 'Seth', hair: 'blonde' },
+      { name: 'Nichole', hair: 'long' },
       { name: 'Davey', hair: 'long gone' }
     ]
     return (
@@ -128,55 +129,6 @@ function UserButton (props) {
 }
 {{< /code >}}
 
-#### Property initializers
-
-From the proposal:
-
-> "Class instance fields" describe properties intended to exist on instances of a class (and may optionally include initializer expressions for said properties).
-
-We can take advantage of this in a couple of ways.
-
-[**Read more: Using ES7 property initializers in React**](https://babeljs.io/blog/2015/06/07/react-on-es6-plus)
-
-We can use a property initializer to set the initial value of state without writing a constructor:
-
-{{< code jsx >}}
-class Song extends React.Component {
-  state = {
-    versesRemaining: 5,
-  }
-}
-{{< /code >}}
-
-We can even set default props and use those in the initial state:
-
-{{< code jsx >}}
-class Song extends React.Component {
-  static defaultProps = {
-    autoPlay: false,
-    verseCount: 10,
-  }
-  state = {
-    versesRemaining: this.props.verseCount,
-  }
-}
-{{< /code >}}
-
-Combining property initializers and arrow functions also gives us a convenient way to auto-bind `this`:
-
-{{< code jsx >}}
-class Something extends React.Component {
-  handleButtonClick = (ev) => {
-    // `this` is bound correctly!
-    this.setState({ buttonWasClicked: true });
-  }
-}
-{{< /code >}}
-
-{{% aside danger "Subject to  minor changes" %}}
-[Property initializers](https://github.com/tc39/proposal-class-public-fields) are a [Stage 2 proposal](https://tc39.github.io/process-document/) for ECMAScript, meaning that it's still a _draft_ and is subject to minor changes before becoming standardized. Facebook itself is already using these techniques in production, however.
-{{% /aside %}}
-
 ### JavaScript (ES6+)
 
 #### Named and default exports and imports
@@ -223,19 +175,82 @@ console.log(myNumber) // => 8
 sayHi() // => 'hello'
 {{< /code >}}
 
+If you need to import a named export under a different name&mdash;if, for example, you have another import or local variable with the same name&mdash;you can specifiy a different name using _as_.
+
+{{< code js >}}
+import { myNumber as num, sayHi as yo } from 'myModule'
+
+console.log(num) // => 8
+
+yo() // => 'hello'
+{{< /code >}}
+
 You can also combine default and named imports in the same line.
 
 {{< code js >}}
 import MyClass, { myNumber, sayHi } from 'myModule'
 {{< /code >}}
 
+#### Property initializers
+
+From the proposal:
+
+> "Class instance fields" describe properties intended to exist on instances of a class (and may optionally include initializer expressions for said properties).
+
+We can take advantage of this in React.
+
+[**Read more: Using ES7 property initializers in React**](https://babeljs.io/blog/2015/06/07/react-on-es6-plus)
+
+We can use a property initializer to set the initial value of state without writing a constructor:
+
+{{< code jsx >}}
+class Song extends React.Component {
+  state = {
+    versesRemaining: 5,
+  }
+}
+{{< /code >}}
+
+We can even set default props and use those in the initial state:
+
+{{< code jsx >}}
+class Song extends React.Component {
+  static defaultProps = {
+    autoPlay: false,
+    verseCount: 10,
+  }
+  state = {
+    versesRemaining: this.props.verseCount,
+  }
+}
+{{< /code >}}
+
+We'll learn another use of property initializers tomorrow.
+
+Combining property initializers and arrow functions also gives us a convenient way to auto-bind `this`:
+
+{{< code jsx >}}
+class Something extends React.Component {
+  handleButtonClick = (ev) => {
+    // `this` is bound correctly!
+    this.setState({ buttonWasClicked: true });
+  }
+}
+{{< /code >}}
+
+{{% aside danger "Subject to  minor changes" %}}
+[Property initializers](https://github.com/tc39/proposal-class-public-fields) are a [Stage 2 proposal](https://tc39.github.io/process-document/) for ECMAScript, meaning that it's still a _draft_ and is subject to minor changes before becoming standardized. Facebook itself is already using these techniques in production, however.
+{{% /aside %}}
+
 ## Projects
 
-* [Dwarf Underground](https://github.com/xtbc17s1/dwarf-underground/)
+* Dwarf Underground: [morning](https://github.com/sbaughman/dwarf-underground/) | [afternoon](https://github.com/xtbc17s1/dwarf-underground/)
+* Static HTML/CSS for Thing List: [thing-list-static](https://github.com/xtbc17s1/thing-list-static)
+* ThingList: [morning](https://github.com/xtbc17s1/thing-list/tree/3f7652d667e3c46342e6f7e90b9ca54d0951d6a3) | afternoon
 
 ## Homework
 
-Add the "Add Thing" button, including the corresponding CSS.
+Add the _Add Thing_ button, including the corresponding CSS.
 
 ### Bonus Credit
 
@@ -243,8 +258,8 @@ Make that button work!
 
 ### Super Mega Bonus Credit
 
-Stop hard-coding _things_ altogether. Use only the things that were added via the "Add Thing" button.
+Stop hard-coding _things_ altogether. Use only the things that were added via the _Add Thing_ button.
 
 ### Super Mega Bonus Credit Hyper Fighting
 
-Make the "remove" button work. 
+Make the _remove_ button work. 
