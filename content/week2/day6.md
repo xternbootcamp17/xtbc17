@@ -33,6 +33,13 @@ Afternoon:
 * Named and default imports
 * Property initializers
 
+### Package Managers
+
+* [NPM](https://www.npmjs.com/) - Node Package Manager
+* [Yarn](https://code.facebook.com/posts/1840075619545360) - Facebook's version of npm
+
+### [CSS Specifity](https://specificity.keegan.st/)
+
 ## Examples
 
 ### React
@@ -242,9 +249,47 @@ class Something extends React.Component {
 [Property initializers](https://github.com/tc39/proposal-class-public-fields) are a [Stage 2 proposal](https://tc39.github.io/process-document/) for ECMAScript, meaning that it's still a _draft_ and is subject to minor changes before becoming standardized. Facebook itself is already using these techniques in production, however.
 {{% /aside %}}
 
+### Package Managers
+
+#### Node Package Manager (npm)
+
+Node Package Manager hosts almost half a million packages of free, reusable JavaScript code and is the largest software registry in the world. It allows you to easily add any module to your project, and it will install the requested package, as well as any required dependencies of that package.
+
+{{< term >}}
+npm install react
+{{< /term >}}
+
+#### Yarn
+
+[Yarn](https://code.facebook.com/posts/1840075619545360) is Facebook's version of npm, designed to improve performance and resolve several important issues.  The key differences are:
+
+* Deterministic installation - packages will always install in the same order on every machine
+* `yarn.lock` - this lockfile locks dependency versions for consistency and security
+* Local cache of downloaded packages - faster and can still work with no internet connection after initial installation
+* Parallel installation - Dependency installation can happen in parallel, greatly increasing speed
+
+To install yarn (npm was already installed as part of setup instructions), type the following command:
+
+{{< term >}}
+npm install -g yarn
+{{< /term >}}
+
+Once installed, you can use yarn with following commands:
+
+{{< term >}}
+yarn
+# installs all packages and dependencies listed in your project's package.json
+
+yarn add {package_name}
+# installs a new package and adds it to package.json
+
+yarn start
+# starts your local development web server (in project from create-react-app)
+{{< /term >}}
+
 ## Projects
 
-* Dwarf Underground: [morning](https://github.com/sbaughman/dwarf-underground/) | [afternoon](https://github.com/xtbc17s1/dwarf-underground/)
+* Dwarf Underground: [morning](https://github.com/sbaughman/dwarf-underground/tree/2330778425ae10658dadcd974b93aefd361c0bef) | [afternoon](https://github.com/xtbc17s1/dwarf-underground/tree/599b3a3ac93da57e55aa898333b97d23c8169efb)
 * Static HTML/CSS for Thing List: [thing-list-static](https://github.com/xtbc17s1/thing-list-static)
 * ThingList: [morning](https://github.com/xtbc17s1/thing-list/tree/3f7652d667e3c46342e6f7e90b9ca54d0951d6a3) | afternoon
 
