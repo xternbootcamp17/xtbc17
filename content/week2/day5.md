@@ -2,6 +2,7 @@
 date = "2017-05-15T11:13:46-04:00"
 title = "Day 5: Intro to React"
 prev="/week2"
+next="/week2/day6/"
 toc = true
 weight = 1
 
@@ -207,7 +208,7 @@ export default App
 
 * Megaroster (final): [morning](https://github.com/xtbc17s1/megaroster/tree/3ccd25f25db46ecff45a5b86ba32affcfb730f2d) | [afternoon](https://github.com/xtbc17s1/megaroster/commit/fc97404dada2d594970f64e9e4fbd3e9b3f6a271)
 * Reactrobats on CodePen: [morning](https://codepen.io/dstrus/pen/BRvLNg/) | [afternoon](https://codepen.io/dstrus/pen/XRoMmR/)
-* [Dwarf Underground](https://github.com/xtbc17s1/dwarf-underground)
+* [Dwarf Underground](https://github.com/xtbc17s1/dwarf-underground/tree/3da6c4b4447d32404a141344867a457fdb9c3e60)
 
 ## Homework
 
