@@ -2,6 +2,7 @@
 date = "2017-05-15T11:13:46-04:00"
 title = "Day 6: React"
 prev="/week2/day5/"
+next="/week2/day7"
 toc = true
 weight = 2
 
@@ -230,19 +231,6 @@ class Song extends React.Component {
   }
   state = {
     versesRemaining: this.props.verseCount,
-  }
-}
-{{< /code >}}
-
-We'll learn another use of property initializers tomorrow.
-
-Combining property initializers and arrow functions also gives us a convenient way to auto-bind `this`:
-
-{{< code jsx >}}
-class Something extends React.Component {
-  handleButtonClick = (ev) => {
-    // `this` is bound correctly!
-    this.setState({ buttonWasClicked: true });
   }
 }
 {{< /code >}}
