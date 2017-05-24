@@ -68,12 +68,19 @@ ReactDOM.render(&lt;App /&gt;, document.querySelector('main'))
 
 {{< code jsx >}}
 import React, { Component } from 'react'
-import ReactDOM from 'react-dom'
 
 class MyComponent extends Component {
   componentDidMount() {
-    const input = ReactDOM.findDOMNode(this.nameInput)
-    input.focus()
+    this.nameInput.focus()
+  }
+
+  render() {
+    return (
+      &lt;input 
+        ref={(input) =&gt; { this.nameInput = input; }} 
+        defaultValue="will focus"
+      /&gt;
+    )
   }
 }
 {{< /code >}}
