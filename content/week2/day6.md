@@ -17,7 +17,7 @@ Morning:
 
 Afternoon:
 
-* [Full Playlist](https://www.youtube.com/playlist?list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG) | [Day 6, part 1]() | [2]() | [3]() | [4]() | [5]() | [6]() | [7]()
+* [Full Playlist](https://www.youtube.com/playlist?list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG) | [Day 6, part 1](https://www.youtube.com/watch?v=1VOesxJNbIA&list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&index=35) | [2](https://www.youtube.com/watch?v=yIiWHmuks1E&list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&index=36) | [3](https://www.youtube.com/watch?v=rxXsCqzzi7A&list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&index=37) | [4](https://www.youtube.com/watch?v=cGkv37JcAcM&list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&index=38) | [5](https://www.youtube.com/watch?v=iz8oJX49tLA&list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&index=39) | [6](https://www.youtube.com/watch?v=a1eQtVlx1Js&list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&index=40) | [7](https://www.youtube.com/watch?v=xEBCLL8YYE0&list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&index=41) | [8](https://www.youtube.com/watch?v=UjDVy0Qis4A&list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&index=42) | [9](https://www.youtube.com/watch?v=ZuI0o8A-2nM&list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&index=43) | [10](https://www.youtube.com/watch?v=e7UhOY48S7Q&list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&index=44)
 
 ## Topics
 
