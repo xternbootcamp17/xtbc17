@@ -13,11 +13,11 @@ weight = 3
 
 Morning:
 
-* [Full Playlist]() | [Day 6, part 1]() | [2]() | [3]() | [4]() | [5]() | [6]() | [7]()
+* [Full Playlist](https://www.youtube.com/playlist?list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F) | [Day 7, part 1](https://www.youtube.com/watch?v=yjyMHL0o6o0&index=33&t=2s&list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F) | [2](https://www.youtube.com/watch?v=Rl715WP0bA8&index=34&list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F) | [3](https://www.youtube.com/watch?v=bCCBdrIW9pc&index=35&list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F) | [4](https://www.youtube.com/watch?v=T-7Nxpxzi6A&index=36&list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F) | [5](https://www.youtube.com/watch?v=vHJS4yLPXKY&index=37&list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F) | [6](https://www.youtube.com/watch?v=XCCHobIBzZ8&index=38&list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F) | [7](https://www.youtube.com/watch?v=JuerIuH0F5A&index=39&list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F) | [8](https://www.youtube.com/watch?v=1iVZskxFbl4&index=40&list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F) | [9](https://www.youtube.com/watch?v=M_wdst2C6Wc&index=41&list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F) | [10](https://www.youtube.com/watch?v=CSm_vhwvpQg&index=42&list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F) | [11](https://www.youtube.com/watch?v=Ckgd-cQ7-74&index=43&list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F) | [12](https://www.youtube.com/watch?v=pq3ykdFCfOE&index=44&list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F) | [13](https://www.youtube.com/watch?v=jBPwpbnK2IE&index=45&list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F)
 
 Afternoon:
 
-* [Full Playlist]() | [Day 6, part 1]() | [2]() | [3]() | [4]() | [5]() | [6]() | [7]()
+* [Full Playlist](https://www.youtube.com/playlist?list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG) | [Day 7, part 1](https://www.youtube.com/watch?v=lc5tFOkT2IE&index=45&list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG) | [2](https://www.youtube.com/watch?v=9o6iLoiSLio&index=46&list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG) | [3](https://www.youtube.com/watch?v=Oa18SuRjTn0&index=47&list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG) | [4]() | [5]() | [6]() | [7]()
 
 ## Topics
 
