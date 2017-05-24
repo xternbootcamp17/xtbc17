@@ -8,6 +8,8 @@ next="/week1/day4"
 
 +++
 
+<date>Thursday, May 18, 2017</date>
+
 ## Lecture Videos
 
 Morning:

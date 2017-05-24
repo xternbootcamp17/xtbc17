@@ -8,6 +8,8 @@ weight = 2
 
 +++
 
+<date>Tuesday, May 16, 2017</date>
+
 ## Lecture Videos
 
 Morning:
