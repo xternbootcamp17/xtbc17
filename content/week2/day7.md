@@ -2,6 +2,7 @@
 date = "2017-05-15T11:13:46-04:00"
 title = "Day 7: Firebase"
 prev="/week2/day6/"
+next="/week2/day8/"
 toc = true
 weight = 3
 
@@ -243,7 +244,7 @@ The above rules translate to:
 
 ## Projects
 
-* ThingList [morning](https://github.com/xtbc17s1/thing-list/tree/23bd5cd351313500c971d4fbded85a0fbc656c0f) | [afternoon]()
+* ThingList [morning](https://github.com/xtbc17s1/thing-list/tree/23bd5cd351313500c971d4fbded85a0fbc656c0f) | [afternoon](https://github.com/xtbc17s1/thing-list/tree/899e37a64952ec96d3b8756bd6077499764851b3)
 
 ## Homework
 
