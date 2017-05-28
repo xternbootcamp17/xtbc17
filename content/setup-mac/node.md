@@ -26,7 +26,7 @@ Node version numbers are confusing, but either the LTS version (6.10.2 as of thi
 
 ## Testing your installation
 
-After Node is installed, test your installation by running the following command:
+After Node is installed, test your installation by running NPM, a JavaScript package manager that's included with Node. Run the following command:
 
 {{< term >}}
 npm install -g create-react-app
@@ -37,3 +37,23 @@ You should see a progress bar of sorts while packages download and, eventually, 
 {{% aside tip %}}
 If the `npm` command isn't available, open a new tab in your terminal and try again. Opening a new tab should make `node` and other related commands available to you from any directory, if they weren't already.
 {{% /aside %}}
+
+## Yarn
+
+[Yarn](https://yarnpkg.com/) is an alternative to NPM that offers several advantages&mdash;not the least of which is speed.
+
+If you've installed Homebrew, run the following command to install Yarn:
+
+{{< term >}}
+brew install yarn
+{{< /term >}}
+
+Otherwise, follow the insructions on the Yarn site to [Install Yarn](https://yarnpkg.com/en/docs/install).
+
+## Testing Yarn
+
+Once Yarn is installed, run this command to test it:
+
+{{< term >}}
+yarn global add eslint
+{{< /term >}}

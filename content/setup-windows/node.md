@@ -29,3 +29,17 @@ npm install -g create-react-app
 {{< /term >}}
 
 You should see a progress bar of sorts while packages download and, eventually, a tree structure of various package names and version numbers. As you may have guessed, aside from testing your Node installation, this has the side effect of installing `create-react-app`, which we'll later use to do exactly what its name suggests.
+
+## Yarn
+
+[Yarn](https://yarnpkg.com/) is an alternative to NPM that offers several advantages&mdash;not the least of which is speed.
+
+[Download the installer](https://yarnpkg.com/en/docs/install#windows-tab) from the Yarn site, and run it.
+
+## Testing Yarn
+
+Once Yarn is installed, run this command to test it:
+
+{{< term os="windows" >}}
+yarn global add eslint
+{{< /term >}}
