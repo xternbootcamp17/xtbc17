@@ -3,6 +3,7 @@ date = "2017-05-25T09:34:51-04:00"
 title = "Day 8: Authentication"
 toc = true
 prev="/week2/day7"
+next="/week3/"
 weight = 4
 
 +++
