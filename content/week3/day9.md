@@ -15,6 +15,10 @@ Morning:
 
 * [Playlist](https://www.youtube.com/playlist?list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F) | [1](https://www.youtube.com/watch?v=uijEhxd85mY&list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&index=54)
 
+Afternoon:
+
+* [Playlist](https://www.youtube.com/watch?v=1ZYirXVMKmc&index=77&list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG) | [1](https://www.youtube.com/watch?v=VE69OzrcMB0&index=75&list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG) | [2](https://www.youtube.com/watch?v=UOzQqU9NqYw&index=76&list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG) | [3](https://www.youtube.com/watch?v=1ZYirXVMKmc&index=77&list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG)
+
 ## Topics
 
 ### Deployment
@@ -285,7 +289,7 @@ If no second argument is provided to `fetch()`, it defaults to a standard `GET` 
 
 ## Projects
 
-API Party [morning]() | [afternoon] ()
+API Party [morning](https://www.youtube.com/watch?v=1ZYirXVMKmc&index=77&list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG) | [afternoon] ()
 
 ## Homework
 
