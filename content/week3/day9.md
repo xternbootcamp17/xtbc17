@@ -278,9 +278,9 @@ If we need to get data from a remote server (or send some to one), there are sev
 
 {{< code js >}}
 fetch('https://api.mywebsite.com/users')    // fetch users data from 'mywebsite' api
-  .then(response => response.json())        // parse the response json into JavaScript object(s)
-  .then(users => console.log(users))        // log the parsed users to the console
-  .catch(error => console.warn(error))      // if any errors occur, log them to the console
+  .then(response =&gt; response.json())        // parse the response json into JavaScript object(s)
+  .then(users =&gt; console.log(users))        // log the parsed users to the console
+  .catch(error =&gt; console.warn(error))      // if any errors occur, log them to the console
 {{< /code >}}
 
 {{% aside info "Fetch does more than just fetch" %}}
