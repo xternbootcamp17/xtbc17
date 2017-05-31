@@ -13,11 +13,11 @@ weight = 2
 
 Morning:
 
-* [Playlist](https://www.youtube.com/playlist?list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F) | [1]() | [2]() | [3]() | [4]() | [5]() | [6]() | [7]() | [8]()
+* [Playlist](https://www.youtube.com/playlist?list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F) | [1](https://www.youtube.com/watch?v=LbXfZTiTeIk&list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&index=55) | [2](https://www.youtube.com/watch?v=FJkPBapdxa4&list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&index=56) | [3](https://www.youtube.com/watch?v=MBdNv10wMiw&list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&index=57) | [4](https://www.youtube.com/watch?v=hI1qt26ZAc0&list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&index=58) | [5](https://www.youtube.com/watch?v=N-XYDqyKvf0&list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&index=59) | [6](https://www.youtube.com/watch?v=V9XID50VYi8&list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&index=60)
 
 Afternoon:
 
-* [Playlist](https://www.youtube.com/watch?v=1ZYirXVMKmc&index=77&list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG) | [1]() | [2]() | [3]() | [4]() | [5]() | [6]() | [7]() | [8]()
+* [Playlist](https://www.youtube.com/watch?v=1ZYirXVMKmc&index=77&list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG)
 
 ## Topics
 
