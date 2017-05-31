@@ -2,6 +2,7 @@
 date = "2017-05-30T09:40:47-04:00"
 title = "Routing and Fetching"
 prev="/week3"
+next="/week3/day10"
 toc = true
 weight = 1
 
@@ -289,7 +290,7 @@ If no second argument is provided to `fetch()`, it defaults to a standard `GET` 
 
 ## Projects
 
-API Party [morning](https://www.youtube.com/watch?v=1ZYirXVMKmc&index=77&list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG) | [afternoon] ()
+API Party [morning](https://github.com/xtbc17s1/api-party/tree/c12abeed027a082be958a989ca33c0464c302eef) | [afternoon] (https://github.com/xtbc17s1/api-party/tree/09fb4270aac75af196a47d9a695df4d921085a09)
 
 ## Homework
 

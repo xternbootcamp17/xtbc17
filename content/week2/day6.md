@@ -309,7 +309,7 @@ npm install react
 To install yarn (npm was already installed as part of setup instructions), type the following command:
 
 {{< term >}}
-npm install -g yarn
+brew install yarn
 {{< /term >}}
 
 Once installed, you can use yarn with following commands:
