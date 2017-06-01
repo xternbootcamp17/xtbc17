@@ -2,6 +2,7 @@
 date = "2017-05-31T09:54:15-04:00"
 title = "Review and NoteHerder"
 prev = "/week3/day9"
+next = "/week3/day10"
 toc = true
 weight = 2
 
