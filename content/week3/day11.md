@@ -26,3 +26,8 @@ _Just kidding_.  We've got a good handle on the basics of React and web developm
 * [React Training](https://reacttraining.com/) - Training on all sorts of React-related topics by the team that created React Router.  Some lessons are free, some are paid, but they're all really good.
 * [Learn Redux](https://learnredux.com/) - An excellent tutorial for learning how to build an app (Instagram clone) using Redux - one of the most popular patterns for creating scalable React apps.
 
+### Development
+
+* [The Conjoined Triangles of Senior Level Development](http://frontside.io/blog/2016/07/07/the-conjoined-triangles-of-senior-level-development.html) - This is where the Technical Capability/Leadership/Community Venn diagram came from.
+* [Tony Dewan's Scale of Awesomeness](http://decidedlycursory.com/post/30869180028/scale-of-awesomeness)
+  * [Twitter thread in which Tony followed up with a few more items](https://twitter.com/tonydewan/status/618583219101810688)
