@@ -45,35 +45,46 @@ For serious customization, click the link to open _keybindings.js_. That opens t
   },
 
   {
-        "key": "ctrl+k ctrl+e",
-        "command": "extension.embraceParenthesis",
-        "when": "editorHasSelection && editorTextFocus"
-    },
-    {
-        "key": "ctrl+k ctrl+[",
-        "command": "extension.embraceSquareBrackets",
-        "when": "editorHasSelection && editorTextFocus"
-    },
-    {
-        "key": "ctrl+k ctrl+l",
-        "command": "extension.embraceCurlyBrackets",
-        "when": "editorHasSelection && editorTextFocus"
-    },
-    {
-        "key": "ctrl+k ctrl+a",
-        "command": "extension.embraceAngleBrackets",
-        "when": "editorHasSelection && editorTextFocus"
-    },
-    {
-        "key": "ctrl+k ctrl+'",
-        "command": "extension.embraceSingleQuotes",
-        "when": "editorHasSelection && editorTextFocus"
-    },
-    {
-        "key": "ctrl+k ctrl+o",
-        "command": "extension.embraceDoubleQuotes",
-        "when": "editorHasSelection && editorTextFocus"
-    }
+      "key": "ctrl+shift+space",
+      "command": "editor.emmet.action.splitJoinTag",
+      "when": "editorTextFocus && !editorHasMultipleSelections && !editorHasSelection && !editorReadonly"
+  },
+
+  {
+      "key": "ctrl+k ctrl+e",
+      "command": "extension.embraceParenthesis",
+      "when": "editorHasSelection && editorTextFocus"
+  },
+
+  {
+      "key": "ctrl+k ctrl+[",
+      "command": "extension.embraceSquareBrackets",
+      "when": "editorHasSelection && editorTextFocus"
+  },
+
+  {
+      "key": "ctrl+k ctrl+l",
+      "command": "extension.embraceCurlyBrackets",
+      "when": "editorHasSelection && editorTextFocus"
+  },
+
+  {
+      "key": "ctrl+k ctrl+a",
+      "command": "extension.embraceAngleBrackets",
+      "when": "editorHasSelection && editorTextFocus"
+  },
+
+  {
+      "key": "ctrl+k ctrl+'",
+      "command": "extension.embraceSingleQuotes",
+      "when": "editorHasSelection && editorTextFocus"
+  },
+
+  {
+      "key": "ctrl+k ctrl+o",
+      "command": "extension.embraceDoubleQuotes",
+      "when": "editorHasSelection && editorTextFocus"
+  }
 ]
 {{< /code >}}
 
@@ -95,7 +106,17 @@ It will even put your cursor inside the `<p></p>` tags. And if you use it within
 
 By default, IntelliSense will suggest Emmet expansion just like any other autocompletion. Sometimes that's fine, but other times it can be a real pain in the neck. Thus, I prefer to set a custom shortcut: <kbd>ctrl</kbd>+<kbd>space</kbd>.
 
+When Emmet expands an abbreviation for a React component, it adds both a closing and opening tag.  Sometimes, we just want a single, self-closing tag.  In the keybindings listed in the previous section, we added one for `"editor.emmet.action.splitJoinTag"`.  This toggles between the open / closing tag and self-closing tag by pressing <kbd>ctrl</kbd>+<kbd>shift</kbd>+<kbd>space</kbd>
+
 There's another really handy Emmet feature to which I've assigned a shortcut: _wrap with abbreviation_. It allows you to wrap a selection inside an HTML element identified by an Emmet abbreviation. Select the text you want to wrap and hit the shortcut. You'll be presented with a box to type the abbreviation into. Magic! I've assigned this command to <kbd>shift</kbd>+<kbd>⌘</kbd>+<kbd>A</kbd>. 
+
+To make sure Emmet will work with JSX files suffixed with `.js`, add the following lines to your VSCode settings (<kbd>Code > Preferences > Settings</kbd>):
+
+{{< code json >}}
+"emmet.syntaxProfiles": {
+    "javascript": "jsx"
+}
+{{< /code >}}
 
 ### ESQuotes
 
