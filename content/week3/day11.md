@@ -13,6 +13,17 @@ Congratulations, you survived the bootcamp! You're all experts in React now, rig
 
 _Just kidding_.  We've got a good handle on the basics of React and web development, but it's important to keep pushing yourself to solidify the concepts you've learned and continue extending your skills.  We've compiled a list of some resources to continue your journey towards becoming a competent web developer.
 
+## Lecture Videos
+
+Morning:
+
+* [Playlist](https://www.youtube.com/playlist?list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F) | [1](https://www.youtube.com/watch?v=v41K9QdZihQ&list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&index=61) | [2](https://www.youtube.com/watch?v=tIMq-aaiRNA&list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&index=62) | [3](https://www.youtube.com/watch?v=mx1qlXe9LZM&list=PLuT2TqJuwaY_bcdBTgaK3S8VrN_6POv5F&index=64)
+
+Afternoon:
+
+* [Playlist](https://www.youtube.com/watch?v=1ZYirXVMKmc&index=77&list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG) | [1](https://www.youtube.com/watch?v=MVJ0ul5iUSE&t=4s&list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&index=88) | [2](https://www.youtube.com/watch?v=TAvw_YzL9-A&t=5s&list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&index=89) | [3](https://www.youtube.com/watch?v=IY2N_l_nCf8&list=PLuT2TqJuwaY8syQZ9ERbc2gtX_v1m2xqG&index=90)
+
+
 ## Resources for continued learning
 
 ### JavaScript
